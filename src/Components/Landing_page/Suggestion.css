@@ -1,0 +1,93 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sug_icons h2{
+    font-size: 50px;
+    color: #020202;
+
+}
+.sug_icons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8em;
+    padding-right: 8em;
+    position: relative;
+    top: 5em;
+}
+
+/* styling the onion after suggestions */
+.Onion{
+    top: 10em;
+    position: relative;
+}
+
+/* styling the card */
+.container_images .food{
+    width: 400px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+/* styling the background color of the card */
+.blur_bg { position: absolute;
+     height: 250px;
+     width: 399px;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 37.58%, #000000 100%);
+      padding-left: 5px;
+     } 
+     .kp{
+        display: flex;
+     }
+
+.container_images{
+    display: flex;
+     width: 100%;
+     justify-content: center;
+     position: relative;
+     gap: 3em;
+
+}
+.blur_bg h4{
+    position: relative;
+    top: 6.5em;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #ddd !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container_images h4{
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+    text-transform: capitalize;
+    color: #ddd;
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style the border after the card */
+.bottom_border{
+    border: 0.01px solid #ADADAD;
+    width: 84%;
+    margin-top: 2em;
+    margin-left: 8em;
+}

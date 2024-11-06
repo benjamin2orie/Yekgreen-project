@@ -1,0 +1,154 @@
+
+.splide__pagination .splide__pagination__page.is-active {
+    border: none;
+    background: #020202; /*Change active dot color to black */
+
+}
+.splide__pagination {
+    position: absolute; /* Change the position to absolute */
+    top: 45em; /* Adjust the bottom position */
+    left: 60px;
+}
+
+/* adding border to the carousel indicator */
+.splide__pagination .splide__pagination__page {
+    border: 1px solid black; /* Add a black border to inactive dots */
+}
+
+
+.container_header{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+
+.container_header ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    gap: 2em;
+    color: #3A3A3C;
+    cursor: pointer;
+    padding-top: 0.5em;
+
+}
+.login{
+    display:flex; 
+     color: #020202;
+    font-size: 25px;
+    text-transform: capitalize;
+    cursor:pointer;
+    padding-top: 0.5em; 
+    gap:0.3em;
+}
+
+.image_icon{
+    padding-top: 0.4em;
+}
+
+
+.register{
+    display: flex;
+    cursor:pointer;
+    color:#FFFFFF;
+    width: 180px;
+    height:60px;
+    background: #058B42;
+    text-transform: capitalize;
+    font-size: 20px;
+    gap: 0.2em;
+    border: none;
+   border-radius: 7px;
+   text-decoration: none;
+   padding-top: 1em;
+   padding-left: 2em;
+}
+.register p{
+    position: absolute;
+    top: 3.2em;
+    right:5em;
+} 
+
+.login_signup{
+    display:flex;
+    gap: 5em;
+
+} 
+.container_auth .button{
+    width: 180px;
+    height:60px;
+    background: #058B42;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: none;
+   border-radius: 7px;
+   text-decoration: none;
+   padding: 1em;
+    cursor: pointer;
+}
+
+
+.section_bg{
+    position:absolute;
+    top: 20em;
+    left: 10em;
+}
+
+.section_bg .para{
+    color: #16DC65;
+font-size: 40px;
+
+}
+.section_bg .para2{
+    color: #16DC65;
+    font-size: 20px;
+
+}
+
+.search_recipes{
+    display: flex;
+    margin-top: 1em;
+    margin-top: 2em;
+}
+.search_recipes input{
+    flex: 1;
+    width: 500px;
+    background: #3A3A3C;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 1em;
+    color: #FAFAFA;
+    outline: none;
+}
+.search_recipes ::placeholder{
+    color: #EDEDED;
+
+}
+
+.btn{
+    width: 8%;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #FFFFFF;
+    align-content: center;
+    padding-left: 0.6em;
+}
+.section_bg p{
+    font-size: 40px;
+    color:#f4f4f4;
+}
+

@@ -1,0 +1,53 @@
+
+.container_header{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+
+.container_header ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    gap: 2em;
+    color: #3A3A3C;
+    cursor: pointer;
+    padding-top: 1em;
+
+}
+.conc{
+    text-decoration: none;
+    color: #3A3A3C;
+}
+
+.container_auth{
+    display: flex;
+    gap: 3em;
+    cursor: pointer;
+}
+.conc_auth{
+    font-size: 20px;
+    color: #3A3A3C;
+    text-transform: capitalize;
+    text-decoration:none;
+    padding-top: 1em;
+}
+.container_auth .button{
+    width: 180px;
+    height:60px;
+    background: #058B42;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: none;
+   border-radius: 7px;
+   text-decoration: none;
+   padding: 1em;
+    cursor: pointer;
+}
