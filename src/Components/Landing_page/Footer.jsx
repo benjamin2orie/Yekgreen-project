@@ -4,6 +4,7 @@ import facebook from "../Images/facebook.png";
 import twitter from "../Images/twitter.png";
 import instagram from "../Images/instagram.png";
 import "./Footer.css";
+import Dinner from "../Recipes/Dinner";
 
 const Footer = () => {
   return (
@@ -38,6 +39,7 @@ const Footer = () => {
         <div className="border" />
         <p className="terms">copyright 2024. All right reserved</p>
       </footer>
+      <Dinner />
     </>
   );
 };

@@ -1,0 +1,104 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sub_main_container,
+.sub_container2{
+    display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 3em;
+        padding-top: 3em;
+    }
+    
+    .sub_food_menu{
+        width: 400px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    } 
+    
+    .sub_card2{
+        border: 1px solid #D4D4D4;
+        border-top: none;
+        height: 140px;
+        position: relative;
+        bottom: 5px;
+        width: 400px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .sub_love{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-bottom:1em;
+    }
+      .sub_love2{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.1em;
+        padding-left: 2em;
+        padding-right: 2em;
+        }
+    
+    .sub_love p{
+        color: #020202;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .sub_heart{
+        color: #058B42;
+        cursor: pointer;
+        font-size: 30px;
+    
+    }
+    .sub_love2 .para{
+        color: #058B42;
+        font-size: 20px;
+    
+    }
+    
+    .sub_grey{
+        color: #6E6E6E;
+        padding-top: 0.3em;
+    }
+
+    .sub_radius{
+        width:10px;
+        height:10px;
+        border-radius:50px;
+        background: #6E6E6E;
+        margin-top: 0.5em;
+    }
+    .sub_servings_section{
+        display:flex;
+        gap:0.4em;
+    }
+    .sub_star_section{
+        display:flex;
+        gap:0.5em;
+    }
+    .sub_star_section p{
+        padding-top: 0.5em;
+    }
+
+    /* .border{
+        border: 0.05px solid #ADADAD;
+        width: 84%;
+        margin-top: 4em;
+        margin-left: 8em;
+        margin-bottom: 2em;
+    } */

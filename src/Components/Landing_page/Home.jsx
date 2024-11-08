@@ -79,7 +79,7 @@ const Home = () => {
           <p>Nigerian recipes</p>
           <p className="para2">Ranging from meals to desert to drinks</p>
           <div className="search_recipes">
-            <input type="text" placeholder="Serach recipe" />
+            <input type="text" placeholder="Search recipe" />
             <br />
             <button className="btn">
               <CiSearch />

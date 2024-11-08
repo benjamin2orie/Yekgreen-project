@@ -7,8 +7,6 @@ body{
   }
   
   
-  
-  
   *{
     margin: 0;
     padding: 0;
@@ -18,24 +16,31 @@ body{
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .featured{
+  .feature_recipes{
     display: flex;
-    gap: 0.1em;
+    gap: 0.8em;
     padding-left: 8em;
+    padding-top: 3em;
+    padding-bottom: 4em;
   }
   
   .feature_recipes h1{
-    color: #020202;
-    font-size: 35px;
+    color: rgba(2, 2, 2, 1);
+    font-size:68.8px;
     text-transform: capitalize;
     padding-top: 0.5em;
+  }
+  .feature_recipes img{
+    width: 30px;
+    height:30px;
+    margin-top: 4.5em;
   }
   .grid_cards {
     display: grid;
      grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: (2, 1fr); 
-    grid-column: 1px; 
-    grid-row-gap: 2px;
+    /* grid-column: 1px;  */
+    /* grid-row-gap: 2px; */
 
     margin-left: 8em;
     margin-right: 6em;  
@@ -63,6 +68,7 @@ body{
     width: 400px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   /* styling the text on the feature section */
@@ -136,7 +142,38 @@ body{
   .star_section p{
     padding-top: 0.5em;
   }
-  
+
+ /* stylig the onion,  carrot, chili icon  */
+  .onion{
+    position: relative;
+    bottom: 5em;
+}
+.peper{
+    position: relative;
+    left: 91em;
+    bottom: 45em;
+}
+
+.tuber{
+    position: relative;
+    left: 74em;
+    bottom: 3em;
+}
+
+/* styling the border line */
+
+
+.borders{
+  border: 0.01px solid #ADADAD;
+  width: 84%;
+  padding: 0;
+  margin-bottom: 0.1em;
+  margin-left: 8em;
+  position: relative;
+  bottom: 6.5em;
+}
+
+
   
   
   

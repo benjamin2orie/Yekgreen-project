@@ -11,8 +11,14 @@ body{
 }
 
 .sug_icons h2{
-    font-size: 50px;
-    color: #020202;
+color: rgba(2, 2, 2, 1);
+font-family: Work Sans;
+font-size: 68.8px;
+font-weight: 700;
+line-height: 96px;
+text-align: left;
+
+
 
 }
 .sug_icons{

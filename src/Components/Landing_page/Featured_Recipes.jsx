@@ -8,12 +8,17 @@ import stew from "../Images/stew.jpeg";
 import { AiOutlineHeart, AiOutlineStar } from "react-icons/ai";
 import "./Featured_Recipes.css";
 import Main from "./Main";
+import carot from "../Images/carrot.png";
+import Tuber from "../Images/Carrot1.png";
+import Onion2 from "../Images/Onion2.png";
+import Chili from "../Images/Chili.png";
 
 const Featured_Recipes = () => {
   return (
     <>
       <div className="feature_recipes">
         <h1>feature recipes</h1>
+        <img src={carot} alt="carrt icon" />
       </div>
       <section className="grid_cards">
         <div className="flex_container">
@@ -148,7 +153,10 @@ const Featured_Recipes = () => {
           </div>
         </div>
       </section>
-      <div className="border" />
+      <img src={Onion2} alt="onion" className="onion" />
+      <img src={Tuber} alt="tuber" className="tuber" />
+      <img src={Chili} alt="chip peper" className="peper" />
+      <div className="borders"></div>
       <Main />
     </>
   );
