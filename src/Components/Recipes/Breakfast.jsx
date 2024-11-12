@@ -1,5 +1,6 @@
 import React from "react";
 import "../Recipes/Breakfast.css";
+import Main from "../Landing_page/Main";
 import Subbreakfast from "../Recipes/Subbreakfast";
 import Logo from "../Images/logo.png";
 import { AiOutlineUser, AiOutlineHeart, AiOutlineStar } from "react-icons/ai";
@@ -8,6 +9,23 @@ import Burger from "../Recipes/Recipe_images/Burger.png";
 import Bread from "../Recipes/Recipe_images/Bread.jpeg";
 import Pancake from "../Recipes/Recipe_images/Tea.jpeg";
 import jollof from "../Images/Rice1.png";
+import { Link } from "react-router-dom";
+import { Dropdown, Space } from "antd";
+
+const items = [
+  {
+    key: "1",
+    label: <Link to="/breakfast">Breakfast</Link>,
+  },
+  {
+    key: "2",
+    label: <Link to="/lunch">Lunch</Link>,
+  },
+  {
+    key: "3",
+    label: <Link to="/dinner">Dinner</Link>,
+  },
+];
 
 const Breakfast = () => {
   return (
@@ -19,9 +37,24 @@ const Breakfast = () => {
           </div>
           <nav>
             <ul>
-              <li>about us</li>
-              <li>recipes</li>
-              <li>blog</li>
+              <li>
+                <Link to={"/about"}>about us</Link>
+              </li>
+              <Space direction="vertical">
+                <Space wrap>
+                  <Dropdown
+                    menu={{
+                      items,
+                    }}
+                    placement="bottom"
+                  >
+                    <li>recipes</li>
+                  </Dropdown>
+                </Space>
+              </Space>
+              <li>
+                <Link to={"/blog"}>blog</Link>
+              </li>
             </ul>
           </nav>
           <div className="users">
@@ -113,10 +146,10 @@ const Breakfast = () => {
             </div>
           </div>
         </div>
-        {/* <Subbreakfast /> */}
       </main>
       <Subbreakfast />
       <div className="border"></div>
+      <Main />
     </div>
   );
 };

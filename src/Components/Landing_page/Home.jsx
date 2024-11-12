@@ -7,12 +7,28 @@ import "../Landing_page/Custom-carousel.css";
 import Suggestion from "./Suggestion";
 import "@splidejs/react-splide/css";
 import { AiOutlineUser } from "react-icons/ai";
-// import "./Custom-carousel.css";
 import Carousel1 from "../Images/Carousel1.png";
 import Carousel2 from "../Images/Carousel22.png";
 import Carousel3 from "../Images/Carousel3.png";
 import Carousel4 from "../Images/Carousel4.png";
 import Carousel5 from "../Images/Carousel5.png";
+import { Link } from "react-router-dom";
+import { Button, Dropdown, Space } from "antd";
+
+const items = [
+  {
+    key: "1",
+    label: <Link to="/breakfast">Breakfast</Link>,
+  },
+  {
+    key: "2",
+    label: <Link to="/lunch">Lunch</Link>,
+  },
+  {
+    key: "3",
+    label: <Link to="/dinner">Dinner</Link>,
+  },
+];
 
 const Home = () => {
   return (
@@ -24,21 +40,41 @@ const Home = () => {
           </div>
           <div className="contact">
             <ul>
-              <li>about us</li>
-              <li>recipes</li>
-              <li>blog</li>
+              <li>
+                <Link to={"/about"}>about us</Link>
+              </li>
+              <Space direction="vertical">
+                <Space wrap>
+                  <Dropdown
+                    menu={{
+                      items,
+                    }}
+                    placement="bottom"
+                  >
+                    <li>recipes</li>
+                  </Dropdown>
+                </Space>
+              </Space>
+
+              <li>
+                <Link to={"/blog"}>blog</Link>
+              </li>
             </ul>
           </div>
           <div className="login_signup">
             <div className="login">
-              <p>login</p>
+              <p>
+                <Link to={"/login"}>login</Link>
+              </p>
               <div>
                 <img src={login_icon} alt="login icon" className="image_icon" />
               </div>
             </div>
             <div className="register">
               <AiOutlineUser />
-              <p>register</p>
+              <p>
+                <Link to={"/register"}>register</Link>
+              </p>
             </div>
           </div>
         </div>

@@ -1,0 +1,156 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.about_container{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+
+.about_container ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    gap: 2em;
+    color: #3A3A3C;
+    cursor: pointer;
+    padding-top: 1em;
+
+}
+
+.conc{
+    text-decoration: none;
+    color: #3A3A3C;
+}
+
+.about_container .users{
+    gap: 3em;
+    display: flex;
+    color: #020202;
+    font-size: 20px;
+    padding-top: 1em;
+    cursor: pointer;
+}
+
+.burger{
+    background: #04471C;
+    display: flex;
+    height: 80px;
+    padding-left: 1em;
+    padding-top: 0.3em;
+    gap: 0.3em;
+    color: rgba(255, 255, 255, 1);
+    font-size: 47.78px;
+    font-weight: 300;
+    line-height: 62.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.burger img{
+    height: 25px;
+    width: 25px;
+}
+
+.dev{
+    /* color: #3A3A3C; */
+    width: 95%;
+    padding-top: 3em;
+    padding-left: 3em;
+    color: rgba(58, 58, 60, 1);
+    padding-bottom: 3em;
+    font-size: 23.04px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.about_image img{
+    /* width: 600px; */
+    width:812px;
+    border-radius: 4px;
+}
+
+.about_image{
+    display: flex;
+    padding: 3em;
+    gap: 3em;
+    padding-left: 5em;
+    padding-bottom: 3em;
+}
+
+.about_image p{
+width: 700px;
+padding-top: 5em;
+font-size: 23.04px;
+font-weight: 400;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+/* 
+.drop{
+    height: 35%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    background: #f4f4f4;
+    transition: 0.5s;
+    top: 10;
+    left: 35em;
+    padding-top: 3em;
+    text-align: center;
+    display: none;
+}
+
+
+.drop a{
+    text-decoration: none;
+    color: #020202;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 2em;
+
+}
+.drop :hover{
+    background: #aaa;
+    color: #020202;
+    transition: 0.5s;
+}
+.drop li{
+    list-style: none;
+}
+
+.drop .open_btn{
+    position: absolute;
+    right: 22px;
+    left: 5em;
+    font-size: 36px;
+    top: 0;
+    cursor: pointer;
+} */

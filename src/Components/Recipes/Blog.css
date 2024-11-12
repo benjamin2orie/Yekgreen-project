@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
-.container{
+.b_container{
     display: flex;
     background-color: #FFFFFF;
     justify-content: space-between;
@@ -17,7 +18,7 @@
     padding-bottom: 2em;
 }
 
-.container ul{
+.b_container ul{
     display: flex;
     list-style: none;
     text-transform: capitalize;
@@ -29,7 +30,7 @@
 
 }
 
-.container .users{
+.b_container .users{
     gap: 3em;
     display: flex;
     color: #020202;
@@ -50,10 +51,10 @@
 
 }
 
-.conc{
+/* .conc{
     text-decoration: none;
     color: #3A3A3C;
-}
+} */
 .update{
     text-transform: capitalize;
 }
@@ -92,10 +93,18 @@
 }
 
 .para_content{
-    /* width: 530px; */
-    width: 800px;
-    padding-top: 3em;
-    line-height: 2em;
+width: 530px;
+width: 800px;
+padding-top: 3em;
+color: rgba(58, 58, 60, 1);
+font-size: 23.04px;
+font-weight: 400;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
 }
 
 .list{
@@ -105,10 +114,15 @@
     height: 50px;
     border: none;
     border-radius: 8px;
-    padding-top: 0.5em;
+    padding-top: 0;
     cursor: pointer;
     text-align: center;
-    margin-top: 5em;
+    margin-top: 3em;
+    color: rgba(255, 255, 255, 1);
+    font-size: 23.04px;
+
+
+
 
 }
 
@@ -128,48 +142,85 @@
     border-radius: 8px;
     height: 500px;
 }
+
 .images p{
-    width: 900px;
-    padding-top: 2em;
-    line-height: 2em;
+width: 900px;
+padding-top: 2em;
+color: rgba(58, 58, 60, 1);
+font-size: 23.04px;
+font-weight: 400;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
 }
 
 .recipe_facts{
     width: 90%;
-    background: #FAFAFA;
-    border-style: dashed;
-    border-color: #6E6E6E;
     border-radius: 8px;
+    background: rgba(250, 250, 250, 1);
+    color: rgba(110, 110, 110, 1);
     margin-left: 3em;
     margin-top: 4em;
     padding-top: 3em;
     padding-left: 1.5em;
-    color: #6E6E6E; ;
+    border: 1.5px solid rgba(110, 110, 110, 1);
+    /* border: 1px solid #000; */
     height: 210px;
+    border-style: dashed;
 }
 
+
 .recipe_facts h3{
-    text-transform: capitalize;
+text-transform: capitalize;
+font-family: Work Sans;
+font-size: 33.18px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .recipe_flex{
     display: flex;
     padding-left: 3em;
     gap: 8em;
-}
-
-.recipe_flex{
     line-height: 2em;
     text-transform: capitalize;
+    
 }
 
-.recipe_flex img{
+
+
+.recipe_flex .ai_clock{
     position: relative;
-    top: 4em;
-    right: 4em;
+    top: 3em;
+    right: 3em;
+    width:30px;
+    height:30px;
+    /* margin-left: 2px; */
+    /* margin-right: 7em; */
+    /* padding-left: 20px; */
 }
 .items{
-    margin-top: 5em;
+margin-top: 2em;
+font-family: Work Sans;
+gap: 1em;
+font-size: 23.04px;
+font-weight: 400;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+
+}
+.ai_like{
+   margin-top: 0.4em;
 }
 
 
@@ -181,6 +232,7 @@
     justify-content: space-between;
     padding-left: 3em;
     padding-right: 6em;
+    margin-bottom: 12em;
 }
 
 .ingredients img{
@@ -190,48 +242,77 @@
 
 .item_list h3{
     text-transform: capitalize;
-    color: #020202;
+    color: rgba(58, 58, 60, 1);
     padding-bottom: 1em;
-    font-size: 30px;
+    /* font-size: 30px; */
+
+font-size: 68.8px;
+font-weight: 700;
+line-height: 96px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .item_list ul{
-  color: #3A3A3C;
-  line-height: 2em;
+
+color: rgba(58, 58, 60, 1);
+font-size: 23.04px;
+font-weight: 400;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+list-style-type: disc;
+margin-left: 1em;
+
 }
 
 
 .add_list{
-    background: #058B42;
-    color: #FFFFFF;
-    width: 260px;
+    background: rgba(5, 139, 66, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 280px;
     height: 50px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
-    margin-top: 5em;
-    padding-top: 1em;
+    margin-top: 3em;
     margin-bottom: 4em;
+    padding-left: 1em;
+    font-weight: 400;
+    padding-top: 0.5em;
+    line-height: 32px; 
+    display: flex;
+    font-size: 23.04px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 
 }
 
-.border{
+.borders{
     border: 0.05px solid #ADADAD;
     width: 90%;
-    margin-top: 2em;
     margin-left: 3em;
-    margin-bottom: 3em;
-    margin-top: 8em;
+    margin-bottom: 1em;
+    /* margin-top: 8em; */
 }
 
 /* started styling the directive section */
 .container_direction p{
     width: 90%;
-    color: #3A3A3C;
-    line-height: 2em;
-    word-spacing: 0.01em;
+    color: rgba(110, 110, 110, 1);
     padding-bottom: 2em;
+    font-size: 23.04px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
 
 .container_direction h4{
@@ -239,11 +320,16 @@
     text-transform: capitalize;
 }
 article h3{
-    font-size: 30px;
-    color: #020202;
     text-transform: capitalize;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 0.5em;
+    color:rgba(2, 2, 2, 1);
+    font-size: 68.8px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
 article{
     padding-left: 3em;
@@ -252,23 +338,44 @@ article{
 /*  started the nutrition facts styling here */
 .nutrition_fact{
     width: 90%;
-    background: #FAFAFA;
-    border-color: #6E6E6E;
-    border-style: dotted;
+    /* background: #FAFAFA; */
+    /* background: red; */
+    background: rgba(250, 250, 250, 1);
+    color: rgba(110, 110, 110, 1);
+    border: 1.5px solid rgba(110, 110, 110, 1);
+    /* border-color: #6E6E6E; */
+    border-style: dashed;
     border-radius: 8px;
     margin-left: 3em;
     margin-top: 4em;
     padding-top: 3em;
     padding-left: 1.5em;
-    color: #6E6E6E; ;
+    padding-bottom: 16em;
     height: 200px;
+}
+
+.nutrition_fact h3{
+font-size: 33.18px;
+padding-bottom: 2em;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .fex_items{
     display: flex;
     gap: 8em;
-    padding-top: 3em;
-    line-height: 1.5em;
+    font-size: 23.04px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+
 }
 
 /* started styling the left over ingredients */
@@ -277,18 +384,36 @@ article{
     padding-left: 3em;
 }
 .left_over h3{
-    color: #020202;
-    font-size: 30px;
-    padding-bottom: 1em;
+    color: rgba(2, 2, 2, 1);
+    font-size: 68.8px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
 
 .left_over p{
-    color: #3A3A3C;
-    line-height: 2em;
+    /* color: #3A3A3C; */
+    line-height: 48px;
+    font-size: 23.04px;
+    font-weight: 400px;
+    color: rgba(58, 58, 60, 1);
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+
+}
+.left-over-paragraph{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
 }
 
 
-.drop{
+/* .drop{
     height: 35%;
     width: 0;
     position: absolute;
@@ -327,4 +452,4 @@ article{
     font-size: 36px;
     top: 0;
     cursor: pointer;
-}
+} */

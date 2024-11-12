@@ -1,17 +1,31 @@
 import React from "react";
-import "../Recipes/Breakfast.css";
+// import "../Recipes/Breakfast.css";
+import Main from "../Landing_page/Main";
 import Sublunch from "../Recipes/Sublunch";
 import Logo from "../Images/logo.png";
 import { AiOutlineUser, AiOutlineHeart, AiOutlineStar } from "react-icons/ai";
 import { FiFileText } from "react-icons/fi";
 import D_burger from "../Recipes/Recipe_images/D_burger.png";
-import Oha from "../Recipes/Recipe_images/Oha_soup.jpeg";
-import Okro from "../Recipes/Recipe_images/Okro_soup.jpeg";
-
 import porridge from "../Images/poridge.jpeg";
 import stews from "../Images/stew.jpeg";
 import Salad from "../Recipes/Recipe_images/Salad.jpeg";
+import { Link } from "react-router-dom";
+import { Dropdown, Space } from "antd";
 
+const items = [
+  {
+    key: "1",
+    label: <Link to="/breakfast">Breakfast</Link>,
+  },
+  {
+    key: "2",
+    label: <Link to="/lunch">Lunch</Link>,
+  },
+  {
+    key: "3",
+    label: <Link to="/dinner">Dinner</Link>,
+  },
+];
 const Dinner = () => {
   return (
     <div>
@@ -22,9 +36,24 @@ const Dinner = () => {
           </div>
           <nav>
             <ul>
-              <li>about us</li>
-              <li>recipes</li>
-              <li>blog</li>
+              <li>
+                <Link to={"/about"}>about us</Link>
+              </li>
+              <Space direction="vertical">
+                <Space wrap>
+                  <Dropdown
+                    menu={{
+                      items,
+                    }}
+                    placement="bottom"
+                  >
+                    <li>recipes</li>
+                  </Dropdown>
+                </Space>
+              </Space>
+              <li>
+                <Link to={"/blog"}>blog</Link>
+              </li>
             </ul>
           </nav>
           <div className="users">
@@ -119,6 +148,7 @@ const Dinner = () => {
       </main>
       <Sublunch />
       <div className="border"></div>
+      <Main />
     </div>
   );
 };
