@@ -4,7 +4,6 @@ import facebook from "../Images/facebook.png";
 import twitter from "../Images/twitter.png";
 import instagram from "../Images/instagram.png";
 import "./Footer.css";
-// import Register from "../Recipes/Register";
 
 const Footer = () => {
   return (
@@ -13,12 +12,14 @@ const Footer = () => {
         <div className="div_footer">
           <div className="logo_content">
             <img src={footer_logo} alt="logo" />
+            <div className="border-free">
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p>
               Aenean at tristique pellentesque arcu morbi rhoncus viverra nisi
               integer.
             </p>
             <p> Dui est, scelerisque amet, cursus. Dui convallis.</p>
+            </div>
           </div>
           <div className="container_about">
             <ul>
@@ -39,7 +40,6 @@ const Footer = () => {
         <div className="border" />
         <p className="terms">copyright 2024. All right reserved</p>
       </footer>
-      {/* <Register /> */}
     </>
   );
 };

@@ -6,6 +6,7 @@
 
 .bg-header {
   border-bottom: 1px solid rgba(212, 212, 212, 1);
+  /* border-bottom: 0.5px solid rgba(237, 237, 237, 1) */
 }
 /* started styling the auth image from this port */
 .login_image {
@@ -49,6 +50,23 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   padding-bottom: 0;
+
+  /* font-size: 68.8px; */
+  font-weight: 700;
+  line-height: 96px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.login_container_form h4 {
+  /* text-align: center; */
+  padding-top: 2em;
+  color: #020202;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  padding-bottom: 0;
+  display: none;
 
   /* font-size: 68.8px; */
   font-weight: 700;
@@ -154,21 +172,15 @@ form ::placeholder {
   justify-content: center;
   margin-top: 3em;
   gap: 2em;
-  /* border-bottom: 0.5px solid #6e6e6e; */
+  /* border-bottom: 0.5px solid rgba(110, 110, 110, 1); */
 }
 .border_bottom_color {
-  border: 0.5px solid rgba(110, 110, 110, 1);
+  border-bottom: 0.2px solid rgba(110, 110, 110, 1);
   margin-bottom: 1em;
   margin-left: 1em;
   width: 500px;
 }
 
-/* .ddd {
-  text-decoration: none;
-  color: #058b42;
-  padding-left: 0.5em;
-  font-family: Arial, Helvetica, sans-serif;
-} */
 .conc_auth {
   font-size: 20px;
   color: #3a3a3c;
@@ -189,4 +201,136 @@ form ::placeholder {
 .green-color {
   color: #058b42;
   padding-left: 0.3em;
+}
+
+/* login mobile view */
+
+@media (max-width: 768px) {
+   .bg-header {
+    /* border-bottom: none; */
+     border-bottom: 0.5px solid rgba(237, 237, 237, 1);
+     padding-bottom: 1em;
+  } 
+
+  .login_image,
+  .login_container_form h3 {
+    display: none;
+  }
+
+  .login_container_form h4 {
+    /* text-align: center; */
+    padding-top: 2em;
+    color: rgba(0, 0, 0, 1);
+    padding-right: 10em;
+    font-size: 23.04px;
+    padding-bottom: 0;
+    display: block;
+    width: 500px;
+
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .login_container_form {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+  }
+
+
+  .login_input,
+.login_password {
+  border-radius: 10px;
+  width: 330px;
+  height: 64px;
+  border: none;
+  border: 1px solid #6e6e6e;
+  padding-left: 2em;
+  font-size: 20px;
+  outline: none;
+}
+
+
+.mailIcon,
+.lock {
+  position: relative;
+  top: 2em;
+  font-size: 20px;
+  left: 0.5em;
+  color: #6e6e6e;
+  opacity: 0.5;
+}
+
+
+.more {
+  text-align: center;
+  margin-left: 0.1em;
+  margin-top: 1.5em;
+  width: 330px;
+  height: 64px;
+  font-size: 23.04px;
+  font-weight: 400;
+  line-height: 32px;
+
+}
+
+.login_border {
+  display: flex;
+  justify-content: left;
+  margin-left: 0.5em;
+  padding-top: 2em;
+}
+
+.grey_border {
+  border-bottom: 1px solid #3a3a3c;
+  width: 100px;
+}
+
+.login_border p {
+  position: relative;
+  top: 0.5em;
+  left: 1em;
+  padding-right: 2em;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgba(58, 58, 60, 1);
+
+  /* line-height: 32px; */
+}
+
+.media {
+  display: flex;
+  justify-content: left;
+  margin-left: 3em;
+  margin-top: 3em;
+  gap: 2.5em;
+  /* border-bottom: 0.5px solid rgba(110, 110, 110, 1); */
+}
+
+
+.login_redirect {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 27.2px;
+  text-align: left;
+  margin-bottom: 2em;
+  padding-left: 2em;
+}
+.green-color {
+  color: #058b42;
+  padding-left: 0.3em;
+}
+
+.border_bottom_color {
+  border-bottom: 0.2px solid rgba(110, 110, 110, 1);
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 30em;
+  width: 330px;
+  margin-top: 1em;
+}
+.logos{
+  position: relative;
+  right: 2.5em;
+}
 }

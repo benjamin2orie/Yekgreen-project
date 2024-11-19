@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { AiOutlinePlus, AiOutlineUser } from "react-icons/ai";
 import { FiFileText } from "react-icons/fi";
 import Logo from "../Images/logo.png";
@@ -5,13 +6,16 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineLike } from "react-icons/ai";
 import Main from "../Landing_page/Main";
+import Footer from "../Landing_page/Footer";
 import Ingredients from "../Recipes/Recipe_images/Ingredients.jpeg";
 import Video from "../Recipes/Recipe_images/Video.gif";
 import "../Recipes/Blog.css";
 import Rice from "../Images/Rice1.png";
+import mobileView from "../Recipes/Recipe_images/blog-mobile.jpeg";
+import { CgMenuLeft } from "react-icons/cg";
 import { Link } from "react-router-dom";
 
-import { Button, Dropdown, Space } from "antd";
+import { Button, Dropdown, Space, Drawer } from "antd";
 
 const items = [
   {
@@ -29,12 +33,61 @@ const items = [
 ];
 
 const Blog = () => {
+  const [open, setOpen] = useState(false);
+  const [placement, setPlacement] = useState("right");
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onChange = (e) => {
+    setPlacement(e.target.value);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div>
       <header className="breakfast_header">
         <div className="b_container">
           <div className="logo_content">
             <img src={Logo} alt="logo" />
+          </div>
+          <div className="toggle-menus">
+            <Space>
+              <CgMenuLeft onClick={showDrawer} />
+            </Space>
+
+            <Drawer
+              title=<img src={Logo} alt="logo icon" />
+              placement={placement}
+              width={500}
+              onClose={onClose}
+              open={open}
+            >
+              <div className="contact">
+                <ul>
+                  <li>
+                    <Link to={"/about"}>about us</Link>
+                  </li>
+                  <Space direction="vertical">
+                    <Space wrap>
+                      <Dropdown
+                        menu={{
+                          items,
+                        }}
+                        placement="bottom"
+                      >
+                        <li>recipes</li>
+                      </Dropdown>
+                    </Space>
+                  </Space>
+
+                  <li>
+                    <Link to={"/blog"}>blog</Link>
+                  </li>
+                </ul>
+              </div>
+            </Drawer>
           </div>
           <nav>
             <ul>
@@ -81,7 +134,7 @@ const Blog = () => {
             meat in a single pot, although its ingredients and preparation
             methods vary across different regions.
           </p>
-          <p>
+          <p className="hide-dumy-p">
             Tellus diam felis, vel, ut pulvinar est amet aliquam. Id id nunc, id
             facilisis. Nec elementum, purus morbi consectetur iaculis gravida
             libero. Non tellus suspendisse nulla metus morbi vulputate lectus
@@ -92,7 +145,12 @@ const Blog = () => {
           </div>
         </div>
         <div className="container_image">
-          <img src={Rice} alt="jollof rice and chiken" />
+          <img src={Rice} alt="jollof rice and chiken" className="hide-on-md" />
+          <img
+            src={mobileView}
+            alt="chicken laps and ingredients used in cooking joolf rice"
+            className="blog-mobile-only"
+          />
         </div>
       </div>
       <section className="section_container">
@@ -101,6 +159,8 @@ const Blog = () => {
           <p>
             It is fair to say that this delicious rice dish is pretty easy to
             make anywhere in the world because the ingredients are easy to find.
+          </p>
+          <p className="desktop-only">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta nisi,
             condimentum fusce sed ut condimentum ac. Volutpat ac, maecenas
             aliquam lectus eget consectetur ut tincidunt aenean.
@@ -227,7 +287,10 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <Main />
+      <div className="hide-main">
+        <Main />
+      </div>
+      <Footer />
     </div>
   );
 };

@@ -1,170 +1,163 @@
-
-
-
-
-body{
-    background: #FFFFFF;
-  }
-  
-  
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .feature_recipes{
-    display: flex;
-    gap: 0.8em;
-    padding-left: 8em;
-    padding-top: 3em;
-    padding-bottom: 4em;
-  }
-  
-  .feature_recipes h1{
-    color: rgba(2, 2, 2, 1);
-    font-size:68.8px;
-    text-transform: capitalize;
-    padding-top: 0.5em;
-  }
-  .feature_recipes img{
-    width: 30px;
-    height:30px;
-    margin-top: 4.5em;
-  }
-  .grid_cards {
-    display: grid;
-     grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: (2, 1fr); 
-    /* grid-column: 1px;  */
-    /* grid-row-gap: 2px; */
-
-    margin-left: 8em;
-    margin-right: 6em;  
-    gap: 10px;  
-}
-.flex_container{
-    padding: 2px;
-}
-  .food_menu{
-    width: 400px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    height: 200px;
-    object-fit: cover;
-  }  
-  
-  
-  
-  .card2{
-    border: 1px solid #D4D4D4;
-    border-top: none;
-    height: 140px;
-    position: relative;
-    bottom: 5px;
-    width: 400px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* styling the text on the feature section */
-  
-  .recipe_container{
-    display: flex;
-     width: 100%;
-     justify-content: center;
-     gap: 3em;
-  
-  }
-  .love{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 1em;
-  }
-  .love2{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 0.1em;
-    padding-left: 2em;
-    padding-right: 2em;
-    }
-  
-  .love p{
-    color: #020202;
-    font-size: 20px;
-    text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .heart{
-    color: #058B42;
-    cursor: pointer;
-    font-size: 30px;
-  
-  }
-  .love2 .para{
-    color: #058B42;
-    font-size: 20px;
-  
-  }
-  
-  .grey{
-    color: #6E6E6E;
-    padding-top: 0.3em;
-  }
-  
-  .f_section{
-    margin-top: 3em;
-  }
-  
-  .radius{
-    width:10px;
-    height:10px;
-    border-radius:50px;
-    background: #6E6E6E;
-    margin-top: 0.5em;
-  }
-  .servings_section{
-    display:flex;
-    gap:0.4em;
-  }
-  .star_section{
-    display:flex;
-    gap:0.5em;
-  }
-  .star_section p{
-    padding-top: 0.5em;
-  }
-
- /* stylig the onion,  carrot, chili icon  */
-  .onion{
-    position: relative;
-    bottom: 5em;
-}
-.peper{
-    position: relative;
-    left: 91em;
-    bottom: 45em;
+body {
+  background: #ffffff;
 }
 
-.tuber{
-    position: relative;
-    left: 74em;
-    bottom: 3em;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature_recipes {
+  display: flex;
+  gap: 0.8em;
+  padding-left: 8em;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+.feature_recipes h1 {
+  color: rgba(2, 2, 2, 1);
+  font-size: 68.8px;
+  text-transform: capitalize;
+  padding-top: 0.5em;
+}
+.feature_recipes h2 {
+  visibility: hidden;
+}
+.feature_recipes img {
+  width: 30px;
+  height: 30px;
+  margin-top: 4.5em;
+}
+.grid_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: (2, 1fr);
+  /* grid-column: 1px;  */
+  /* grid-row-gap: 2px; */
+
+  margin-left: 8em;
+  margin-right: 6em;
+  gap: 10px;
+}
+.flex_container {
+  padding: 2px;
+}
+.food_menu {
+  width: 400px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card2 {
+  border: 1px solid #d4d4d4;
+  border-top: none;
+  height: 140px;
+  position: relative;
+  bottom: 5px;
+  width: 400px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* styling the text on the feature section */
+
+.recipe_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3em;
+}
+.love {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+.love2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.love p {
+  color: #020202;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heart {
+  color: #058b42;
+  cursor: pointer;
+  font-size: 30px;
+}
+.love2 .para {
+  color: #058b42;
+  font-size: 20px;
+}
+
+.grey {
+  color: #6e6e6e;
+  padding-top: 0.3em;
+}
+
+.f_section {
+  margin-top: 3em;
+}
+
+.radius {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: #6e6e6e;
+  margin-top: 0.5em;
+}
+.servings_section {
+  display: flex;
+  gap: 0.4em;
+}
+.star_section {
+  display: flex;
+  gap: 0.5em;
+}
+.star_section p {
+  padding-top: 0.5em;
+}
+
+/* stylig the onion,  carrot, chili icon  */
+.onion {
+  position: relative;
+  bottom: 5em;
+}
+.peper {
+  position: relative;
+  left: 91em;
+  bottom: 45em;
+}
+
+.tuber {
+  position: relative;
+  left: 74em;
+  bottom: 3em;
 }
 
 /* styling the border line */
 
-
-.borders{
-  border: 0.01px solid #ADADAD;
+.borders {
+  border: 0.01px solid #adadad;
   width: 84%;
   padding: 0;
   margin-bottom: 0.1em;
@@ -173,7 +166,125 @@ body{
   bottom: 6.5em;
 }
 
+.view-on-mobile {
+  visibility: hidden;
+}
 
-  
-  
-  
+/* started mobile view design from this point */
+
+@media (max-width: 768px) {
+  /* disabling desktop views from mobile views */
+  .feature_recipes h1,
+  .feature_recipes img,
+  .onion,
+  .peper,
+  .tuber,
+  .grid_cards,
+  .borders {
+    display: none;
+  }
+  /* enabling only mobile views */
+
+  .feature_recipes h2 {
+    visibility: visible;
+    text-transform: capitalize;
+    padding-top: 1em;
+    font-size: 27.65px;
+    color: rgba(13, 40, 25, 1);
+    font-weight: 700;
+    line-height: 35.94px;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .feature_recipes {
+    padding-left: 1.52em;
+    padding-top: 2em;
+    padding-bottom: 1.52em;
+  }
+
+  .love p {
+    font-size: 19.02px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: capitalize;
+    color: rgba(2, 2, 2, 1);
+  }
+
+  .love2 .para {
+    /* color: #058b42;
+    font-size: 20px; */
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .grey {
+    /* color: #6e6e6e; */
+    color: rgba(110, 110, 110, 1);
+    padding-top: 0.2em;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+
+  .flex_container {
+    padding: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  /* .food_menu {
+    width: 400px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  } */
+
+  .love2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .love {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1em;
+  }
+
+
+  .card2 {
+    border: 1px solid #d4d4d4;
+    /* border: solid 1px red; */
+    border-top: none;
+    height: 140px;
+    position: relative;
+    bottom: 5px;
+    width: 328px;
+    /* width: 396px; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: none;
+  }
+}

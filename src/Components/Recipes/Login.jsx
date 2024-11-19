@@ -15,7 +15,7 @@ const Login = () => {
     <div className="containerss">
       <header className="bg-header">
         <div className="container_header">
-          <div className="logo">
+          <div className="logos">
             <img src={Logo} alt="logo icon" />
           </div>
           <div className="contact">
@@ -34,8 +34,18 @@ const Login = () => {
             </div>
             <div className="register">
               <AiOutlineUser />
-              <p>register</p>
+              <p>
+                <Link to={"/register"}>register</Link>
+              </p>
             </div>
+          </div>
+          <div className="mobileView-only">
+            <p>
+              <Link to={"/login"}>login /</Link>
+            </p>
+            <p>
+              <Link to={"/register"}>register</Link>
+            </p>
           </div>
         </div>
       </header>
@@ -44,6 +54,7 @@ const Login = () => {
         <div className="login_container_border">
           <form>
             <h3>Login to do more</h3>
+            <h4>Login to continue where you left off</h4>
             <div className="login_container_input">
               <MdOutlineMail className="mailIcon" />
               <input type="emial" placeholder="email" className="login_input" />
@@ -73,7 +84,7 @@ const Login = () => {
               <img src={google_icon} alt="google icon" />
             </div>
           </div>
-          <div className="border_bottom_color" />
+          <div className="border_bottom_color"></div>
           <div className="login_redirect">
             Don't have an account?
             <Link to={"/register"} className="green-color">

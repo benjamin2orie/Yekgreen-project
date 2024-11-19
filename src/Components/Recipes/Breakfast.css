@@ -1,42 +1,39 @@
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.b_container{
-    display: flex;
-    background-color: #FFFFFF;
-    justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 2em;
-    padding-left: 3em;
-    padding-right: 4em;
-    padding-bottom: 2em;
+.b_container {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2em;
+  /* padding-left: 3em; */
+  padding-left: 7em;
+  padding-right: 8em;
+  padding-bottom: 2em;
 }
 
-.b_container ul{
-    display: flex;
-    list-style: none;
-    text-transform: capitalize;
-    font-size: 25px;
-    gap: 2em;
-    color: #3A3A3C;
-    cursor: pointer;
-    padding-top: 1em;
-
+.b_container ul {
+  display: flex;
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  gap: 2em;
+  color: #3a3a3c;
+  cursor: pointer;
+  padding-top: 1em;
 }
 
-.b_container .users{
-    gap: 3em;
-    display: flex;
-    color: #020202;
-    font-size: 20px;
-    padding-top: 1em;
-    cursor: pointer;
+.b_container .users {
+  gap: 3em;
+  display: flex;
+  color: #020202;
+  font-size: 20px;
+  padding-top: 1em;
+  cursor: pointer;
 }
 
 /* .conc{
@@ -45,169 +42,217 @@
 } */
 
 /* styling the burger and breakfast title */
-.burger{
-    background: #04471C;
-    display: flex;
-    gap: 0.3em;
-    padding-left: 3em;
+.burger {
+  background: #04471c;
+  display: flex;
+  height: 80px;
+  padding-left: 4.5em;
+  padding-top: 0.3em;
+  gap: 0.3em;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25px;
+  /* font-size: 47.78px; */
+  font-weight: 300;
+  line-height: 62.11px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.burger img {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 0.6em;
+}
+
+.burger h3 {
+  color: #ffffff;
+  /* padding-top: 1em; */
+  font-size: 20px;
+  /* padding-bottom: 1em; */
+}
+.b_container_section p {
+  /* width: 75%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2em;
+  color: #020202;*/
+  padding-left: 5em;
+  padding-right: 3em;
+  padding-top: 2em;
+  font-size: 23.04px;
+  color: rgba(2, 2, 2, 1);
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.b_main_counter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3em;
+  padding-top: 3em;
+}
+
+.b_food_menu {
+  width: 400px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.b_card2 {
+  border: 1px solid #d4d4d4;
+  border-top: none;
+  height: 140px;
+  position: relative;
+  bottom: 5px;
+  width: 400px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.b_love {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 1em;
+}
+.b_love2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.b_love p {
+  color: #020202;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.b_heart {
+  color: #058b42;
+  cursor: pointer;
+  font-size: 30px;
+}
+.b_love2 .para {
+  color: #058b42;
+  font-size: 20px;
+}
+
+.b_grey {
+  color: #6e6e6e;
+  padding-top: 0.3em;
+}
+
+.b_radius {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: #6e6e6e;
+  margin-top: 0.5em;
+}
+.b_servings_section {
+  display: flex;
+  gap: 0.4em;
+}
+.b_star_section {
+  display: flex;
+  gap: 0.5em;
+}
+.b_star_section p {
+  padding-top: 0.5em;
+}
+
+.toggle-menus {
+  position: relative;
+  top: 0.2em;
+  right: 9em;
+  font-size: 50px;
+  visibility: hidden;
+  /* color: red; */
+  cursor: pointer;
+}
+.visible-on-mobile{
+  visibility: hidden;
 
 }
 
+/* Breakfast mobile view */
 
-.burger img{
-    height: 25px;
-    width: 25px;
-    position: relative;
-    top:1.3em;
-}
+@media (max-width: 768px) {
+  .b_container ul {
+    display: none;
+  }
 
-.burger h3{
-    color: #FFFFFF;
-    padding-top: 1em;
-    font-size: 20px;
-    padding-bottom: 1em;
-}
-.b_container_section p{
-    width: 75%;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 2em;
-    color: #020202;
-    padding-left: 8em;
+  .toggle-menus {
+    visibility: visible;
+    right: 3.5em;
+  }
+
+  .b_container {
     padding-top: 2em;
-}
+    padding-left: 0;
+    padding-right: 2em;
+    padding-bottom: 2px;
+  }
+  .breakfast-hide{
+    display:none;
+  }
 
-
-.b_main_counter{
+  .b_container .users {
+    gap: 1em;
     display: flex;
-        width: 100%;
-        justify-content: center;
-        gap: 3em;
-        padding-top: 3em;
-    }
-    
-    .b_food_menu{
-        width: 400px;
-        border-top-right-radius: 8px;
-        border-top-left-radius: 8px;
-        height: 200px;
-        object-fit: cover;
-        object-position: center;
-      
-    } 
-    
-    .b_card2{
-        border: 1px solid #D4D4D4;
-        border-top: none;
-        height: 140px;
-        position: relative;
-        bottom: 5px;
-        width: 400px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .b_love{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 2em;
-        padding-left: 2em;
-        padding-right: 2em;
-        margin-bottom:1em;
-    }
-      .b_love2{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 0.1em;
-        padding-left: 2em;
-        padding-right: 2em;
-        }
-    
-    .b_love p{
-        color: #020202;
-        font-size: 20px;
-        text-transform: capitalize;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .b_heart{
-        color: #058B42;
-        cursor: pointer;
-        font-size: 30px;
-    
-    }
-    .b_love2 .para{
-        color: #058B42;
-        font-size: 20px;
-    
-    }
-    
-    .b_grey{
-        color: #6E6E6E;
-        padding-top: 0.3em;
-    }
+    color: #020202;
+    font-size: 20px;
+    padding-top: 1.5em;
+    cursor: pointer;
+  }
 
-    .b_radius{
-        width:10px;
-        height:10px;
-        border-radius:50px;
-        background: #6E6E6E;
-        margin-top: 0.5em;
-    }
-    .b_servings_section{
-        display:flex;
-        gap:0.4em;
-    }
-    .b_star_section{
-        display:flex;
-        gap:0.5em;
-    }
-    .b_star_section p{
-        padding-top: 0.5em;
-    }
+  .burger {
+    padding-left: 0.7em;
+    gap: 0.3em;
+    color: rgba(255, 255, 255, 1);
+    font-size: 33.18px;
+    /* font-size: 47.78px; */
+    font-weight: 300;
+    line-height: 43.13px;
+  }
+  .burger h3 {
+    padding-top: 0.6em;
+  }
 
+  .b_container_section p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 2em;
+    color: rgba(58, 58, 60, 1);
+    font-size: 19.02px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* margin-bottom: 3em; */
+  }
+  .visible-on-mobile{
+    visibility: visible;
+    margin-bottom: 2em;
+  
+  }
 
-    /* .drop{
-        height: 35%;
-        width: 0;
-        position: absolute;
-        z-index: 1;
-        background: #f4f4f4;
-        transition: 0.5s;
-        top: 10;
-        left: 35em;
-        padding-top: 3em;
-        text-align: center;
-        display: none;
-    } */
-    
-    
-    /* .drop a{
-        text-decoration: none;
-        color: #020202;
-        text-transform: capitalize;
-        font-size: 20px;
-        line-height: 2em;
-    
-    } */
-    /* .drop :hover{
-        background: #aaa;
-        color: #020202;
-        transition: 0.5s;
-    } */
-    /* .drop li{
-        list-style: none;
-    } */
-    
-    /* .drop .open_btn{
-        position: absolute;
-        right: 22px;
-        left: 5em;
-        font-size: 36px;
-        top: 0;
-        cursor: pointer;
-    } */
-
-
-   
-
-
+  .hide-main,
+  .hidden{
+    display:none;
+  }
+}

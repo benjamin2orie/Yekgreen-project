@@ -21,7 +21,9 @@
   padding-top: 3em;
   padding-left: 3em;
   padding-right: 4em;
-  padding-bottom: 2em;
+  height: 150px;
+  padding-bottom: 2px !important;
+  margin-bottom: 0 !important;
 }
 
 .container_header ul {
@@ -142,20 +144,214 @@
   color: #f4f4f4;
 }
 
-/* :where(.css-dev-only-do-not-override-apn68) a  className of link elements */
+/* styling the drower menu here */
+.toggle-menu {
+  position: relative;
+  bottom: 1em;
+  right: 1em;
+  font-size: 50px;
+  visibility: hidden;
+  /* color: red; */
+  cursor: pointer;
+}
 
-/* :where(.css-dev-only-do-not-override-apn68).ant-dropdown
-  .ant-dropdown-menu
-  .ant-dropdown-menu-item,
-:where(.css-dev-only-do-not-override-apn68).ant-dropdown-menu-submenu
-  .ant-dropdown-menu
-  .ant-dropdown-menu-item,
-:where(.css-dev-only-do-not-override-apn68).ant-dropdown
-  .ant-dropdown-menu
-  .ant-dropdown-menu-submenu-title,
-:where(.css-dev-only-do-not-override-apn68).ant-dropdown-menu-submenu
-  .ant-dropdown-menu
-  .ant-dropdown-menu-submenu-title {
+/* started the mobile design here */
+
+/* this class name add border style to the title */
+:where(.css-dev-only-do-not-override-apn68).ant-drawer .ant-drawer-header {
+  /* border: 1px solid red; */
+  border: none;
+  padding-left: 0;
+}
+
+/* this is the class name for the menu icon */
+.ant-space-item {
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-drawer
+  .ant-drawer-header-title {
+  /* display: block; */
+}
+
+/* btn style */
+
+:where(.css-dev-only-do-not-override-apn68).ant-drawer .ant-drawer-close {
+  /* margin-left: 8em; */
+  position: relative;
+  left: 16em;
+  font-size: 20px;
+}
+
+/* styling title text */
+
+:where(.css-dev-only-do-not-override-apn68).ant-drawer .ant-drawer-title {
   color: red;
-  text-transform: uppercase;
+}
+
+/* styling drawer body */
+
+:where(.css-dev-only-do-not-override-apn68).ant-drawer .ant-drawer-body {
+  padding-left: 1.5em;
+  overflow: hidden;
+  /* color: red; */
+  text-transform: capitalize;
+  line-height: 80px;
+  color: rgba(58, 58, 60, 1);
+  font-size: 23.04px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* .splide__list {
+  margin: 0 !important;
 } */
+
+/* Disabling the mobile view in the desktop views */
+.mobileView-only {
+  display: none;
+}
+.mobile-carousel-only {
+  display: none;
+}
+.mobile_views {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container_header {
+    padding-left: 4em;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 1.5em;
+    height: 90px;
+  }
+
+  .container_header ul,
+  .image_icon,
+  .login_signup,
+  .desktop_views {
+    display: none;
+  }
+
+  /* hamburger menu toggling */
+  .toggle-menu {
+    visibility: visible;
+  }
+
+  .splide__pagination {
+    position: absolute; /* Change the position to absolute */
+    top: 10em; /* Adjust the bottom position */
+  }
+
+  /* change the width and height kof the carousel */
+  .splide__track {
+    width: 85%;
+    margin-left: 2em;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2em;
+  }
+  .hide {
+    position: relative;
+    top: 20em;
+    margin-bottom: 20em;
+  }
+
+  .logo img {
+    margin-left: 1em;
+  }
+
+  .first-slide img {
+    display: none;
+  }
+
+  /* styling the login and signup section in header */
+
+  .mobileView-only {
+    display: flex;
+    background: rgba(5, 139, 66, 1);
+    gap: 0.5em;
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 1.5em;
+    padding-left: 0.4em;
+    padding-top: 0.8em;
+    text-transform: capitalize;
+    /* padding-bottom: 1em; */
+    border-radius: 4px;
+    margin-right: 1.3em;
+    /* cursor: pointer; */
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .section_bg {
+    /* position: absolute; */
+    top: 10em;
+    left: 0em;
+    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+
+  .section_bg .para {
+    color: red;
+    font-size: 20px;
+  }
+  .section_bg .para2 {
+    color: rgba(2, 2, 2, 1);
+    font-size: 19.02px;
+    margin-right: 3em;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .section_bg p {
+    font-size: 30px;
+    color: rgba(4, 71, 28, 1);
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .search_recipes input {
+    flex: 0.9;
+    width: 100px;
+    background: none;
+    border: 1px solid rgba(4, 71, 28, 1);
+    color: #3a3a3c;
+  }
+  .search_recipes ::placeholder {
+    color: rgba(4, 71, 28, 1);
+  }
+
+  .btn {
+    width: 15%;
+    background: rgba(5, 139, 66, 1);
+    color: #f4f4f4;
+  }
+
+  .mobile_views {
+    display: block;
+    color: rgba(4, 71, 28, 1);
+  }
+  /* mobile auto carousel display */
+
+  /* .mobile-carousel-only {
+    display: flex;
+
+  } */
+}

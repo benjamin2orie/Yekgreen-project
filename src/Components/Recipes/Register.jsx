@@ -28,7 +28,7 @@ const Register = () => {
     <div className="containerss">
       <header className="bg-header">
         <div className="container_header">
-          <div className="logo">
+          <div className="logos">
             <img src={Logo} alt="logo icon" />
           </div>
           <div className="contact">
@@ -52,6 +52,14 @@ const Register = () => {
               <p>register</p>
             </div>
           </div>
+          <div className="mobileView-only">
+            <p>
+              <Link to={"/login"}>login /</Link>
+            </p>
+            <p>
+              <Link to={"/register"}>register</Link>
+            </p>
+          </div>
         </div>
       </header>
       <div className="login_container_form">
@@ -59,6 +67,7 @@ const Register = () => {
         <div className="login_container_border">
           <form>
             <h3>Register to do more</h3>
+            <h4>Register to do more</h4>
             <div className="login_container_input">
               <MdOutlineMail className="mailIcon" />
               <input type="emial" placeholder="email" className="login_input" />
@@ -88,7 +97,7 @@ const Register = () => {
               <img src={google_icon} alt="google icon" />
             </div>
           </div>
-          <div className="border_bottom_color" />
+          <div className="border_bottom_color"></div>
           <div className="login_redirect">
             Already have an account?
             <Link className="green-color" to={"/login"}>
