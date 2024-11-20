@@ -16,13 +16,13 @@ const Suggestion = () => {
           <img src={Onion} alt="Onion icon" className="Onion" />
           <div className="container_images">
             <div className="kp1">
-              <h4>breakfast</h4>
+              {/* <h4>breakfast</h4> */}
             </div>
             <div className="kp2">
-              <h4>lunch</h4>
+              {/* <h4>lunch</h4> */}
             </div>
             <div className="kp3">
-              <h4>dinner</h4>
+              {/* <h4>dinner</h4> */}
             </div>
           </div>
           <div className="bottom_border"></div>

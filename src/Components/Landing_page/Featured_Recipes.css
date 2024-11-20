@@ -241,20 +241,19 @@ body {
     text-decoration-skip-ink: none;
   }
 
+  body {
+    padding: 20px;
+  }
 
   .flex_container {
-    padding: 0;
-    padding-left: 1em;
-    padding-right: 1em;
+    width: 100%;
+    /* padding: 0; */
+    /* padding-left: 1em;
+    padding-right: 1em; */
   }
-  /* .food_menu {
-    width: 400px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-  } */
+  .food_menu {
+    width: 100%;
+  }
 
   .love2 {
     display: flex;
@@ -273,15 +272,15 @@ body {
     padding-bottom: 1em;
   }
 
-
   .card2 {
     border: 1px solid #d4d4d4;
     /* border: solid 1px red; */
     border-top: none;
     height: 140px;
+    width: 100%;
     position: relative;
     bottom: 5px;
-    width: 328px;
+    /* width: 328px; */
     /* width: 396px; */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
