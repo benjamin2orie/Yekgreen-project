@@ -5,7 +5,7 @@ import Beans from '../Images/sug3.jpeg';
 import plantain from '../Recipes/Recipe_images/Plantain.jpeg';
 import stew from '../Images/stew.jpeg';
 import spicy from '../Recipes/Recipe_images/spicy.jpeg';
-import plantain_porridge from '../Recipes/Recipe_images/plantain_porridge.jpeg';
+import plantainPorridge from '../Recipes/Recipe_images/plantain_porridge.jpeg';
 
 const DinnerMobileCard = () => {
   return (
@@ -98,7 +98,7 @@ const DinnerMobileCard = () => {
         </div>
 
         <div className="flex_container">
-          <img src={plantain_porridge} alt="pancake" className="food_menu" />
+          <img src={plantainPorridge} alt="pancake" className="food_menu" />
           <div className="card2">
             <div className="love">
               <p>beans & plantain🥣</p>
