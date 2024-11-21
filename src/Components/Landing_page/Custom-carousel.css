@@ -252,17 +252,21 @@
     margin-left: 2em; */
     border-radius: 4px;
     /* object-fit: cover;
-    object-position: center;
-    margin-top: 2em; */
+    object-position: center; */
+    margin-top: 2em;
   }
 
-  .splide__slide{
+  .splide__slide {
     width: calc(100%) !important;
     height: 180px;
     object-fit: contain;
     object-position: center;
-    -webkit-tap-highlight-color:rgba(255, 255, 255, 1)
   }
+
+  .splide__slide {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 1);
+  }
+
   .hide {
     position: relative;
     top: 20em;
