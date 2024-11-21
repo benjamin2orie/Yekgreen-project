@@ -4,7 +4,7 @@
 }
 .splide__pagination {
   position: absolute; /* Change the position to absolute */
-  top: 45em; /* Adjust the bottom position */
+  top: 55em; /* Adjust the bottom position */
   /* left: 60px; */
 }
 
@@ -242,17 +242,26 @@
 
   .splide__pagination {
     position: absolute; /* Change the position to absolute */
-    top: 10em; /* Adjust the bottom position */
+    top: 12em; /* Adjust the bottom position */
   }
 
   /* change the width and height kof the carousel */
   .splide__track {
-    width: 85%;
-    margin-left: 2em;
+    /* width: 100%;
+    height: 240px;
+    margin-left: 2em; */
     border-radius: 4px;
-    object-fit: cover;
+    /* object-fit: cover;
     object-position: center;
-    margin-top: 2em;
+    margin-top: 2em; */
+  }
+
+  .splide__slide{
+    width: calc(100%) !important;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    -webkit-tap-highlight-color:rgba(255, 255, 255, 1)
   }
   .hide {
     position: relative;
