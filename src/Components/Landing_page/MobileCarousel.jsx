@@ -3,7 +3,7 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import React, { useEffect, useRef } from "react";
-import card1 from "../Images/Poridge.jpeg";
+import card1 from "../Images/poridge.jpeg";
 import card2 from "../Recipes/Recipe_images/Salad.jpeg";
 import card3 from "../Recipes/Recipe_images/spicy.jpeg";
 import card4 from "../Recipes/Recipe_images/Noodles.jpeg";
