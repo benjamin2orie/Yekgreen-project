@@ -215,13 +215,14 @@
 .mobile-carousel-only {
   display: none;
 }
-.mobile_views {
+.mobile_views,
+.auto-paly {
   display: none;
 }
 
 @media (max-width: 768px) {
   .container_header {
-    padding-left: 4em;
+    padding-left: 3em;
     padding-bottom: 0;
     padding-right: 0;
     padding-top: 1.5em;
@@ -231,8 +232,13 @@
   .container_header ul,
   .image_icon,
   .login_signup,
-  .desktop_views {
+  .desktop_views,
+  .hide-on-mobile {
     display: none;
+  }
+
+  .splide__slide img{
+    vertical-align: middle;
   }
 
   /* hamburger menu toggling */
@@ -261,11 +267,29 @@
     height: 180px;
     object-fit: contain;
     object-position: center;
+    /* overflow: hidden; */
+  }
+  .auto-paly{
+    display: block;
   }
 
-  .splide__slide {
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 1);
+  /* .splide .is-initialized .splide--loop .splide--ltr .splide--draggable .is-active .is-overflow{
+    object-fit: contain;
+    object-position: center;
+  } */
+
+
+  .splide__slide img {
+    object-fit: cover;
+   
+
   }
+  .fit{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
 
   .hide {
     position: relative;
@@ -283,6 +307,14 @@
 
   /* styling the login and signup section in header */
 
+
+  .anchor-tag{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+  }
+
+
+
   .mobileView-only {
     display: flex;
     background: rgba(5, 139, 66, 1);
@@ -297,7 +329,7 @@
     text-transform: capitalize;
     /* padding-bottom: 1em; */
     border-radius: 4px;
-    margin-right: 1.3em;
+    margin-right: 0;
     /* cursor: pointer; */
     font-weight: 400;
     line-height: 24px;
@@ -312,7 +344,7 @@
     left: 0em;
     margin-bottom: 3em;
     margin-top: 2em;
-    margin-left: 2em;
+    margin-left: 1.5em;
   }
 
   .section_bg .para {

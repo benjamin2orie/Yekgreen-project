@@ -17,6 +17,7 @@ import Carousel5 from "../Images/Carousel5.png";
 import { CgMenuLeft } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import { Button, Radio, Drawer, Dropdown, Space } from "antd";
+import MobileCarousel from "./MobileCarousel";
 
 const items = [
   {
@@ -76,7 +77,6 @@ const Home = () => {
                 width={500}
                 onClose={onClose}
                 open={open}
-
               >
                 <div className="contact">
                   <ul>
@@ -139,16 +139,18 @@ const Home = () => {
             <div className="register">
               <AiOutlineUser className="user" />
               <p>
-                <Link to={"/register"}>register</Link>
+                <Link to={"/register"} className="anchor-tag">register</Link>
               </p>
             </div>
           </div>
           <div className="mobileView-only">
             <p>
-              <Link to={"/login"}>login /</Link>
+              <Link to={"/login"} className="anchor-tag">
+                login /
+              </Link>
             </p>
             <p>
-              <Link to={"/register"}>register</Link>
+              <Link to={"/register"} className="anchor-tag">register</Link>
             </p>
           </div>
         </div>
@@ -166,7 +168,7 @@ const Home = () => {
               pauseOnHover: false,
               resetProgress: false,
             }}
-            aria-label="..."
+            aria-label="false"
           >
             <SplideSlide>
               <img src={Carousel1} alt="Carousel1 1" />
@@ -182,9 +184,12 @@ const Home = () => {
               <img src={Carousel4} alt="Carousel 4" />
             </SplideSlide>
             <SplideSlide>
-              <img src={Carousel5} alt="Carousel 5" />
+              <img src={Carousel5} alt="Carousel 5" className="me" />
             </SplideSlide>
           </Splide>
+          <div className="auto-paly">
+            <MobileCarousel />
+          </div>
         </div>
 
         <div className="section_bg">
