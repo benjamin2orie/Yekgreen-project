@@ -242,11 +242,12 @@ body {
   }
 
   body {
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .flex_container {
     width: 100%;
+    padding: 20px;
     /* padding: 0; */
     /* padding-left: 1em;
     padding-right: 1em; */

@@ -81,7 +81,7 @@ const Home = () => {
                 <div className="contact">
                   <ul>
                     <li>
-                      <Link to={"/about"}>about us</Link>
+                      <Link to={"/about"} className="anchor-tags">about us</Link>
                     </li>
                     <Space direction="vertical">
                       <Space wrap>
@@ -97,7 +97,7 @@ const Home = () => {
                     </Space>
 
                     <li>
-                      <Link to={"/blog"}>blog</Link>
+                      <Link to={"/blog"} className="anchor-tags">blog</Link>
                     </li>
                   </ul>
                 </div>
@@ -123,14 +123,14 @@ const Home = () => {
               </Space>
 
               <li>
-                <Link to={"/blog"}>blog</Link>
+                <Link to={"/blog"} className="anchor-tag">blog</Link>
               </li>
             </ul>
           </div>
           <div className="login_signup">
             <div className="login">
               <p>
-                <Link to={"/login"}>login</Link>
+                <Link to={"/login"} className="anchor-tag">login</Link>
               </p>
               <div>
                 <img src={login_icon} alt="login icon" className="image_icon" />

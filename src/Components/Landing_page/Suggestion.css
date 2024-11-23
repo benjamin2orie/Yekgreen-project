@@ -112,12 +112,16 @@ body {
     background: rgba(250, 250, 250, 1);
     margin-top: 20em;
     position: relative;
-    height: 850px;
+    width:100%;
+    margin-left: 0;
+    padding-right: 0;
+    height: 750px;
     padding-bottom: 0;
+    padding: 20px;
     top: 3em;
   }
   .main_section{
-    margin-right: 5em;
+    margin-right: 0em;
   }
 
   /* flexing suggestion images */
@@ -136,11 +140,12 @@ body {
 
   .sug_icons h2 {
     font-size: 27.65px;
+    /* padding-left: 0.5em; */
     /* margin-top: 2em; */
   }
   .sug_icons {
     display: block;
-    padding-left: 1.5em;
+    padding-left: 0em;
     padding-top: 1em;
     padding-right: 0;
     position: relative;
@@ -154,9 +159,9 @@ body {
 
   .kp1{
 
-    width: 325px;
-    height: 200px;
-    margin-left: 1.2em;
+    width: 100%;
+    height: 180px;
+    margin-left: 0em;
     /* margin-right: 4em; */
   }
 
@@ -164,45 +169,47 @@ body {
   .kp2 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
       url("../Images/poridge.jpeg");
-    width: 325px;
+    width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    height: 200px;
+    height: 180px;
     object-fit: cover;
     background-position: center;
     background-size: cover;
-    margin-left: 1.2em;
+    margin-left: 0em;
   }
 
   .kp3 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
       url("../Recipes/Recipe_images/Noodles.jpeg");
     /* width: 90%; */
-    width: 325px;
+    width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     /* height: 230px; */
-    height: 200px;
+    height: 180px;
     object-fit: cover;
     background-position: center;
     background-size: cover;
-    margin-left: 1.2em;
+    margin-left: 0em;
     /* margin-right: 2em !important; */
   }
 
   .container_images h4 {
     position: relative;
-    top: 7em;
+    top: 6em;
     left: 25px;
     text-transform: capitalize;
-    color: #ddd;
-    /* color: rgba(255, 255, 255, 1); */
+    font-weight: 500;
+    /* color: #ddd; */
+    color: rgba(255, 255, 255, 1);
     font-size: 23.04px;
-    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    /* font-family: Arial, Helvetica, sans-serif; */
   }
   .bottom_border {
 display: none;

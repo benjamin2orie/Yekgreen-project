@@ -9,6 +9,7 @@
 .container-footer {
   background: #020202;
   color: #ffffff;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -101,6 +102,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
+
 
   .container_about ul {
     font-size: 19.02px;
