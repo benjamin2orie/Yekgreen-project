@@ -158,11 +158,7 @@
 /* started the mobile design here */
 
 /* this class name add border style to the title */
-:where(.css-dev-only-do-not-override-apn68).ant-drawer .ant-drawer-header {
-  /* border: 1px solid red; */
-  border: none;
-  padding-left: 0;
-}
+
 
 /* this is the class name for the menu icon */
 .ant-space-item {
@@ -430,11 +426,14 @@
   display: flex;
   flex-direction: row-reverse;
   padding-left: 20px;
-  background: red;
-  margin-left: 0;
-  position: fixed;
-  padding-top: 20px;
-  width: 100%;
-  padding-right: 20px;
+  margin: 0;
+
+}
+
+.ant-drawer-header{
+  display:flex;
+  padding: 16px 20px;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.06);
 }
 }
