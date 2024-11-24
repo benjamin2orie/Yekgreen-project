@@ -241,10 +241,6 @@ body {
     text-decoration-skip-ink: none;
   }
 
-  body {
-    /* padding: 20px; */
-  }
-
   .flex_container {
     width: 100%;
     padding: 20px;

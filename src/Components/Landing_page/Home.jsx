@@ -107,7 +107,7 @@ const Home = () => {
           <div className="contact">
             <ul>
               <li>
-                <Link to={"/about"}>about us</Link>
+                <Link to={"/about"} className="anchor-tag">about us</Link>
               </li>
               <Space direction="vertical">
                 <Space wrap>

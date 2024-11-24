@@ -117,9 +117,13 @@
   .border {
     /* border-bottom: 1px solid #adadad; */
     border: 0.5px solid rgba(255, 255, 255, 1);
-    width: 80%;
+    width: 50%;
     margin-top: 3em;
-    margin-left: 2em;
+    /* margin-left: 2em; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    margin-left: 20px;
+    margin-right: 20px;
     /* margin-right: 8em; */
     margin-bottom: 2em;
   }
