@@ -164,22 +164,11 @@
 .ant-space-item {
 }
 
-:where(.css-dev-only-do-not-override-apn68).ant-drawer
-  .ant-drawer-header-title {
-  /* display: flex;
-  flex-direction: row-reverse;
-  padding-left: 20px;
-  background: red;
-  margin-left: 0;
-  position: fixed;
-  padding-top: 20px;
-  width: 100%;
-  padding-right: 20px; */
-}
+
 
 /* btn style */
 
-:where(.css-dev-only-do-not-override-apn68).ant-drawer .ant-drawer-close {
+.ant-drawer .ant-drawer-close{
   /* margin-left: 8em; */
   /* position: relative;
   left: 16em; */
