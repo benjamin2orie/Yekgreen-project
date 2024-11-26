@@ -160,7 +160,7 @@ const Featured_Recipes = () => {
       <img src={Onion2} alt="onion" className="onion" />
       <img src={Tuber} alt="tuber" className="tuber" />
       <img src={Chili} alt="chip peper" className="peper" />
-      <div className="borders"></div>
+      <div className="borderss"></div>
       <MobileView />
       <Main className="disable_on_mobile" />
       <Footer/>

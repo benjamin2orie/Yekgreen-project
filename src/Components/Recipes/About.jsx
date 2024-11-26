@@ -59,7 +59,9 @@ const About = () => {
               <div className="contact">
                 <ul>
                   <li>
-                    <Link to={"/about"}>about us</Link>
+                    {/* <Link to={"/about"} className="anchor-tags">
+                      about us
+                    </Link> */}
                   </li>
                   <Space direction="vertical">
                     <Space wrap>
@@ -75,7 +77,9 @@ const About = () => {
                   </Space>
 
                   <li>
-                    <Link to={"/blog"}>blog</Link>
+                    <Link to={"/blog"} className="anchor-tags">
+                      blog
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -84,7 +88,9 @@ const About = () => {
           <nav>
             <ul>
               <li>
-                <Link to={"/about"}>about us</Link>
+                <Link to={"/about"} className="anchor-tag">
+                  about us
+                </Link>
               </li>
               <Space direction="vertical">
                 <Space wrap>
@@ -99,47 +105,20 @@ const About = () => {
                 </Space>
               </Space>
               <li>
-                <Link to={"/blog"}>blog</Link>
+                <Link to={"/blog"} className="anchor-tag">
+                  blog
+                </Link>
               </li>
             </ul>
           </nav>
           <div className="users">
             <FiFileText />
-            <AiOutlineUser />
+            <div className="">
+              <AiOutlineUser />
+            </div>
           </div>
         </div>
       </header>
-      {/* <header className="breakfast_header">
-        <div className="about_container">
-          <div className="logo">
-            <img src={Logo} alt="logo" />
-          </div>
-          <nav>
-            <ul>
-              <li>about us</li>
-              <Space direction="vertical">
-                <Space wrap>
-                  <Dropdown
-                    menu={{
-                      items,
-                    }}
-                    placement="bottom"
-                  >
-                    <li>recipes</li>
-                  </Dropdown>
-                </Space>
-              </Space>
-              <li>
-                <Link to={"/blog"}>blog</Link>
-              </li>
-            </ul>
-          </nav>
-          <div className="users">
-            <FiFileText />
-            <AiOutlineUser />
-          </div>
-        </div>
-      </header> */}
       <div className="burgers">
         <TbUsers className="burger-icon" />
         <h3>About us</h3>

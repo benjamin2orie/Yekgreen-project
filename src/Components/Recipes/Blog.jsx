@@ -67,7 +67,7 @@ const Blog = () => {
               <div className="contact">
                 <ul>
                   <li>
-                    <Link to={"/about"}>about us</Link>
+                    <Link to={"/about"} className="anchor-tags">about us</Link>
                   </li>
                   <Space direction="vertical">
                     <Space wrap>
@@ -83,7 +83,7 @@ const Blog = () => {
                   </Space>
 
                   <li>
-                    <Link to={"/blog"}>blog</Link>
+                    {/* <Link to={"/blog"} className="anchor-tags">blog</Link> */}
                   </li>
                 </ul>
               </div>
@@ -92,7 +92,7 @@ const Blog = () => {
           <nav>
             <ul>
               <li>
-                <Link to={"/about"}>about us</Link>
+                <Link to={"/about"} className="anchor-tag">about us</Link>
               </li>
               <Space direction="vertical">
                 <Space wrap>
@@ -106,7 +106,9 @@ const Blog = () => {
                   </Dropdown>
                 </Space>
               </Space>
-              <li>blog</li>
+              <li>
+                <Link to = {"/blog"} className="anchor-tag">blog</Link>
+              </li>
             </ul>
           </nav>
           <div className="users">

@@ -85,20 +85,21 @@ body {
   gap: 3em;
 }
 
-.container_images h4 {
-  position: relative;
-  top: 6.5em;
-  left: 25px;
+.kp1 h4,
+.kp2 h4,
+.kp3 h4 {
+
   text-transform: capitalize;
   color: #ddd;
-  /* color: rgba(255, 255, 255, 1); */
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 6.5em;
+  padding-left: 0.5em;
 }
 
 /* style the border after the card */
 .bottom_border {
-  border: 0.01px solid #adadad;
+  /* border: 0.01px solid #adadad; */
+  border-bottom: 1px solid rgba(173, 173, 173, 1);
   width: 84%;
   margin-top: 2em;
   margin-left: 8em;
@@ -162,7 +163,20 @@ body {
     width: 100%;
     height: 180px;
     margin-left: 0em;
+    /* display:flex; */
+    /* flex-direction: column; */
     /* margin-right: 4em; */
+  }
+  .kp1 h4,
+  .kp2 h4,
+  .kp3 h4{
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-size: 23.04px;
+    line-height: 32px;
+    padding-top: 6em;
+    padding-left: 1em;
   }
 
 
@@ -199,18 +213,16 @@ body {
     /* margin-right: 2em !important; */
   }
 
-  .container_images h4 {
+  /* .container_images h4 {
     position: relative;
     top: 6em;
     left: 25px;
     text-transform: capitalize;
     font-weight: 500;
-    /* color: #ddd; */
     color: rgba(255, 255, 255, 1);
     font-size: 23.04px;
     line-height: 32px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-  }
+  } */
   .bottom_border {
 display: none;
 }

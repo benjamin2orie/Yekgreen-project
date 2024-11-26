@@ -144,23 +144,24 @@ body {
 }
 .peper {
   position: relative;
-  left: 91em;
-  bottom: 45em;
+  left: 80em;
+  bottom: 35em;
 }
 
 .tuber {
   position: relative;
   left: 74em;
-  bottom: 3em;
+  bottom: 0em;
 }
 
 /* styling the border line */
 
-.borders {
-  border: 0.01px solid #adadad;
-  width: 84%;
+.borderss {
+  border-bottom: 1px solid rgba(173, 173, 173, 1);
+  width: 83%;
   padding: 0;
   margin-bottom: 0.1em;
+  margin-top: 7em;
   margin-left: 8em;
   position: relative;
   bottom: 6.5em;
@@ -180,7 +181,8 @@ body {
   .peper,
   .tuber,
   .grid_cards,
-  .borders {
+  .borders,
+  .borderss {
     display: none;
   }
   /* enabling only mobile views */

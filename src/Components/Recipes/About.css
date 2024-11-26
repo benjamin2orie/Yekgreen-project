@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-.about_container {
+/* .about_container {
   display: flex;
   background-color: #ffffff;
   justify-content: space-between;
@@ -17,7 +17,8 @@ body {
   padding-left: 3em;
   padding-right: 6em;
   padding-bottom: 2em;
-}
+  
+} */
 
 .about_container ul {
   display: flex;
@@ -30,10 +31,7 @@ body {
   padding-top: 1em;
 }
 
-.conc {
-  text-decoration: none;
-  color: #3a3a3c;
-}
+
 
 .about_container .users {
   gap: 3em;

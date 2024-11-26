@@ -65,7 +65,7 @@ const Dinner = () => {
               <div className="contact">
                 <ul>
                   <li>
-                    <Link to={"/about"}>about us</Link>
+                    <Link to={"/about"} className="anchor-tags">about us</Link>
                   </li>
                   <Space direction="vertical">
                     <Space wrap>
@@ -81,7 +81,7 @@ const Dinner = () => {
                   </Space>
 
                   <li>
-                    <Link to={"/blog"}>blog</Link>
+                    <Link to={"/blog"} className="anchor-tags">blog</Link>
                   </li>
                 </ul>
               </div>
@@ -90,7 +90,7 @@ const Dinner = () => {
           <nav>
             <ul>
               <li>
-                <Link to={"/about"}>about us</Link>
+                <Link to={"/about"} className="anchor-tag">about us</Link>
               </li>
               <Space direction="vertical">
                 <Space wrap>
@@ -105,7 +105,7 @@ const Dinner = () => {
                 </Space>
               </Space>
               <li>
-                <Link to={"/blog"}>blog</Link>
+                <Link to={"/blog"} className="anchor-tag">blog</Link>
               </li>
             </ul>
           </nav>

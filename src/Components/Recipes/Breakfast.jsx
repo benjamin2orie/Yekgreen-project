@@ -65,7 +65,7 @@ const Breakfast = () => {
               <div className="contact">
                 <ul>
                   <li>
-                    <Link to={"/about"}>about us</Link>
+                    <Link to={"/about"} className="anchor-tags">about us</Link>
                   </li>
                   <Space direction="vertical">
                     <Space wrap>
@@ -81,7 +81,7 @@ const Breakfast = () => {
                   </Space>
 
                   <li>
-                    <Link to={"/blog"}>blog</Link>
+                    <Link to={"/blog"} className="anchor-tags">blog</Link>
                   </li>
                 </ul>
               </div>

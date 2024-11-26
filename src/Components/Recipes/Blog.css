@@ -405,14 +405,23 @@ article {
   padding-bottom: 2em;
 }
 
+
+
+
+
 /* styling the mobile view of the blog page */
 
 @media (max-width: 768px) {
-  .container_blog {
-    padding-left: 2em;
-    padding-right: 2em;
+
+
+
+    .container_blog {
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 1em;
+    width: 100%;
   }
+
 
   .print {
     gap: 0.5em;
@@ -422,6 +431,7 @@ article {
   .update {
     padding-left: 0;
   }
+
 
   .print_btn {
     width: 50px;
@@ -437,8 +447,9 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    padding-left: 1em;
-    padding-right: 1em;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .hide-on-md,
@@ -451,11 +462,16 @@ article {
   .blog-mobile-only {
     display: block;
   }
+  .container_image{
+    width: 100%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
 
   .container_image img {
-    width: 380px;
+    width: 100%;
     height: 232px;
-    left: 24px;
+    left: 0;
     gap: 0px;
     border-radius: 8px;
     opacity: 0px;
@@ -463,8 +479,9 @@ article {
 
   .para_content {
     padding-top: 2em;
-    padding-right: 25em;
-    padding-left: 0.4em;
+    width: 100%;
+    padding-right: 0em;
+    padding-left: 0;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     font-size: 19.02px;
@@ -495,11 +512,12 @@ article {
   .images {
     background: rgba(250, 250, 250, 1);
     margin-top: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 480px;
     display: flex;
     flex-direction: column;
+    width:100%;
     padding-top: 3em;
   }
 
@@ -520,10 +538,10 @@ article {
     object-fit: cover;
     object-fit: cover;
     -o-object-fit: cover;
-    width: 380px;
+    width: 100%;
     height: 232px;
     top: 584px;
-    left: 25px;
+    left: 0;
     gap: 0px;
     border-radius: 8px;
     opacity: 0px;
@@ -531,18 +549,28 @@ article {
 
   /* started styling the section on mobile views */
 
+  .main-container{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .recipe_facts {
     width: 90%;
     /* width: 310px; */
 
-    margin-left: 1em;
+    /* margin-left: 20px; */
+    /* margin-right: 20px !important; */
     margin-top: 1em;
+    /* margin-left: 0; */
+    margin: 0 20px;
     padding-top: 0.5em;
     padding-left: 1.5em;
     border: 2px solid rgba(110, 110, 110, 1);
     height: 136px;
     border-style: dashed;
   }
+ 
 
   .recipe_facts h3 {
     font-size: 23.04px;
@@ -648,20 +676,22 @@ article {
     line-height: 35.94px;
   }
   article {
-    margin-left: 2em;
+    margin-left: 0em;
+    padding: 0 20px;
     margin-right: 0em;
+    width: 100%;
   }
 
   /* styling nutrition fact section */
 
   .nutrition_fact {
-    width: 325px;
+    width: 90%;
     height: 128px;
     border: 1.5px solid rgba(110, 110, 110, 1);
     border-style: dashed;
     border-radius: 8px;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 0 20px;
+    margin-right: 0em;
     margin-top: 4em;
     padding-top: 1em;
     padding-left: 0.5em;

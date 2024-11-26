@@ -46,7 +46,7 @@
 }
 
 .border {
-  border: 0.05px solid #adadad;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 1);
   width: 84%;
   margin-top: 4em;
   margin-left: 8em;
@@ -68,6 +68,8 @@
 
     font-family: Arial, Helvetica, sans-serif;
     background: rgba(13, 40, 25, 1);
+    padding-left: 20px;
+    padding-right: 20px;
     /* background-color: red; */
   }
   /* hiddding the social media icon on mobile */
@@ -97,12 +99,11 @@
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-
 
   .container_about ul {
     font-size: 19.02px;
@@ -116,15 +117,12 @@
 
   .border {
     /* border-bottom: 1px solid #adadad; */
-    border: 0.5px solid rgba(255, 255, 255, 1);
-    width: 50%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 1);
+    width: 100%;
     margin-top: 3em;
-    /* margin-left: 2em; */
-    /* margin-left: 0; */
-    /* margin-right: 0; */
-    margin-left: 20px;
-    margin-right: 20px;
-    /* margin-right: 8em; */
+
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 2em;
   }
 
