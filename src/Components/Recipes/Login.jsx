@@ -35,16 +35,16 @@ const Login = () => {
             <div className="register">
               <AiOutlineUser />
               <p>
-                <Link to={"/register"}>register</Link>
+                <Link to={"/register"} className="anchor-tag">register</Link>
               </p>
             </div>
           </div>
           <div className="mobileView-only">
             <p>
-              <Link to={"/login"}>login /</Link>
+              <Link to={"/login"} className="anchor-tag">login /</Link>
             </p>
             <p>
-              <Link to={"/register"}>register</Link>
+              <Link to={"/register"} className="anchor-tag">register</Link>
             </p>
           </div>
         </div>

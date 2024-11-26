@@ -90,7 +90,7 @@ const Breakfast = () => {
           <nav>
             <ul>
               <li>
-                <Link to={"/about"}>about us</Link>
+                <Link to={"/about"} className="anchor-tag">about us</Link>
               </li>
               <Space direction="vertical">
                 <Space wrap>
@@ -105,7 +105,7 @@ const Breakfast = () => {
                 </Space>
               </Space>
               <li>
-                <Link to={"/blog"}>blog</Link>
+                <Link to={"/blog"} className="anchor-tag">blog</Link>
               </li>
             </ul>
           </nav>

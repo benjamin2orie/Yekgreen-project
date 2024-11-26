@@ -264,6 +264,8 @@ text-decoration-skip-ink: none;
   /* hamburger menu toggling */
   .toggle-menu {
     visibility: visible;
+    width:0;
+    height: 0;
   }
 
   .splide__pagination {
@@ -362,11 +364,11 @@ text-decoration-skip-ink: none;
     margin-top: 0.2em;
     margin-left: 1.5em;
   }
-
+/* 
   .section_bg .para {
     color: red;
     font-size: 20px;
-  }
+  } */
   .section_bg .para2 {
     color: rgba(2, 2, 2, 1);
     font-size: 19.02px;
@@ -412,19 +414,9 @@ text-decoration-skip-ink: none;
   }
   /* mobile auto carousel display */
 
-  /* .mobile-carousel-only {
-    display: flex;
-
-  } */
-
 
 
   /* drawer menu */
-
-  :where(.css-dev-only-do-not-override-apn68).ant-drawer
-  .ant-drawer-header-title {
-
-}
 
 .ant-drawer-header-title{
   display: flex;

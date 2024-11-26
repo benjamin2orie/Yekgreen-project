@@ -40,7 +40,7 @@
 
 .login_container_form {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .login_container_form h3 {
@@ -80,10 +80,10 @@
   width: 600px;
   margin-top: 1em;
   padding-right: 2em;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
-.userAccount {
+/* .userAccount {
   margin-left: 15em;
   width: 60px;
   height: 60px;
@@ -92,7 +92,7 @@
   text-align: center;
   padding-bottom: 0.5em;
   margin-top: 2em;
-}
+} */
 
 /* styling the mail icon  */
 .mailIcon,
@@ -181,13 +181,13 @@ form ::placeholder {
   width: 500px;
 }
 
-.conc_auth {
+/* .conc_auth {
   font-size: 20px;
   color: #3a3a3c;
   text-transform: capitalize;
   text-decoration: none;
   padding-top: 1em;
-}
+} */
 
 .login_redirect {
   color: rgba(58, 58, 60, 1);
@@ -207,7 +207,6 @@ form ::placeholder {
 
 @media (max-width: 768px) {
    .bg-header {
-    /* border-bottom: none; */
      border-bottom: 0.5px solid rgba(237, 237, 237, 1);
      padding-bottom: 1em;
   } 
@@ -218,15 +217,12 @@ form ::placeholder {
   }
 
   .login_container_form h4 {
-    /* text-align: center; */
-    padding-top: 2em;
+    padding: 0;
     color: rgba(0, 0, 0, 1);
-    padding-right: 10em;
     font-size: 23.04px;
-    padding-bottom: 0;
     display: block;
-    width: 500px;
-
+    width: 100%;
+    text-align: left;
     font-weight: 500;
     line-height: 32px;
   }
@@ -234,19 +230,28 @@ form ::placeholder {
   .login_container_form {
     display: flex;
     justify-content: space-between;
-    padding-left: 1em;
+    flex-direction: column;
+    width: 100%;
   }
+
+  .login_container_border {
+    width: 100%;
+    margin-top: 1em;
+    padding: 30px 20px 0 20px;
+  } 
 
 
   .login_input,
 .login_password {
   border-radius: 10px;
-  width: 330px;
-  height: 64px;
+  width: 100%;
+  height: 44px;
   border: none;
   border: 1px solid #6e6e6e;
-  padding-left: 2em;
+  padding: 0 20px;
+  padding-left: 1.5em;
   font-size: 20px;
+  margin-right: 0px;
   outline: none;
 }
 
@@ -254,9 +259,9 @@ form ::placeholder {
 .mailIcon,
 .lock {
   position: relative;
-  top: 2em;
+  top: 1.7em;
   font-size: 20px;
-  left: 0.5em;
+  left: 0.2em;
   color: #6e6e6e;
   opacity: 0.5;
 }
@@ -264,11 +269,10 @@ form ::placeholder {
 
 .more {
   text-align: center;
-  margin-left: 0.1em;
-  margin-top: 1.5em;
-  width: 330px;
-  height: 64px;
-  font-size: 23.04px;
+  /* margin: 20px 20px 0 20px; */
+  width: 100%;
+  height: 44px;
+  font-size: 19.04px;
   font-weight: 400;
   line-height: 32px;
 
@@ -277,13 +281,16 @@ form ::placeholder {
 .login_border {
   display: flex;
   justify-content: left;
-  margin-left: 0.5em;
+  width: 100%;
+  margin: 0 20px 0 20px;
   padding-top: 2em;
 }
 
 .grey_border {
   border-bottom: 1px solid #3a3a3c;
-  width: 100px;
+  width: 80px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .login_border p {
@@ -298,11 +305,12 @@ form ::placeholder {
   /* line-height: 32px; */
 }
 
+
 .media {
   display: flex;
-  justify-content: left;
-  margin-left: 3em;
-  margin-top: 3em;
+  justify-content: center;
+  margin: 2em 0 0 0;
+  width: 100%;
   gap: 2.5em;
   /* border-bottom: 0.5px solid rgba(110, 110, 110, 1); */
 }
@@ -313,24 +321,24 @@ form ::placeholder {
   font-weight: 500;
   line-height: 27.2px;
   text-align: left;
-  margin-bottom: 2em;
+  margin-bottom: 0;
   padding-left: 2em;
 }
 .green-color {
   color: #058b42;
   padding-left: 0.3em;
+  text-decoration: none;
 }
 
 .border_bottom_color {
   border-bottom: 0.2px solid rgba(110, 110, 110, 1);
   margin-bottom: 1em;
   margin-left: 0em;
-  margin-right: 30em;
-  width: 330px;
-  margin-top: 1em;
+  /* margin: 1em 20px 20px 20px; */
+  width: 100%;
 }
 .logos{
-  position: relative;
-  right: 2.5em;
+  position: relative; 
+  right: 3em;
 }
 }

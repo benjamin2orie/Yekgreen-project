@@ -54,10 +54,10 @@ const Register = () => {
           </div>
           <div className="mobileView-only">
             <p>
-              <Link to={"/login"}>login /</Link>
+              <Link to={"/login"} className="anchor-tag">login /</Link>
             </p>
             <p>
-              <Link to={"/register"}>register</Link>
+              <Link to={"/register"} className="anchor-tag">register</Link>
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Register = () => {
               placeholder="password"
               className="login_password"
             />
-            <input type="submit" value={"Login with Email"} className="more" />
+            <input type="submit" value={"Register with Email"} className="more" />
           </form>
           <div className="login_border">
             <div className="grey_border"></div>

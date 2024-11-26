@@ -185,7 +185,8 @@
   cursor: pointer;
 }
 .visible-on-mobile{
-  visibility: hidden;
+  display: none;
+  /* visibility: hidden; */
 
 }
 
@@ -247,7 +248,8 @@
     /* margin-bottom: 3em; */
   }
   .visible-on-mobile{
-    visibility: visible;
+    /* visibility: visible; */
+    display: block;
     margin-bottom: 2em;
   
   }
