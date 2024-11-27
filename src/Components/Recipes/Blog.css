@@ -566,7 +566,7 @@ article {
     margin: 0 20px;
     padding-top: 0.5em;
     padding-left: 1.5em;
-    border: 1px solid rgba(110, 110, 110, 1);
+    border: 2px solid rgba(110, 110, 110, 1);
     height: 136px;
     border-style: dashed;
   }
