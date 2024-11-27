@@ -41,7 +41,7 @@ const Register = () => {
           <div className="login_signup">
             <div className="login">
               <p>
-                <Link to={"/login"}>login</Link>
+                <Link to={"/login"} className="anchor-tag">login</Link>
               </p>
               <div>
                 <img src={login_icon} alt="login icon" className="image_icon" />
