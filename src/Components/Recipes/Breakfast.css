@@ -94,17 +94,21 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  gap: 3em;
-  padding-top: 3em;
+  padding: 3em 100px 0 100px;
+  gap: 1em;
+  /* padding-top: 3em; */
 }
 
 .b_food_menu {
-  width: 400px;
+  width: 100%;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   height: 200px;
   object-fit: cover;
   object-position: center;
+}
+.b_flex_container {
+  width: 100%;
 }
 
 .b_card2 {
@@ -113,7 +117,7 @@
   height: 140px;
   position: relative;
   bottom: 5px;
-  width: 400px;
+  width: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -184,10 +188,9 @@
   /* color: red; */
   cursor: pointer;
 }
-.visible-on-mobile{
+.visible-on-mobile {
   display: none;
   /* visibility: hidden; */
-
 }
 
 /* Breakfast mobile view */
@@ -208,8 +211,8 @@
     padding-right: 2em;
     padding-bottom: 2px;
   }
-  .breakfast-hide{
-    display:none;
+  .breakfast-hide {
+    display: none;
   }
 
   .b_container .users {
@@ -247,15 +250,14 @@
     text-decoration-skip-ink: none;
     /* margin-bottom: 3em; */
   }
-  .visible-on-mobile{
+  .visible-on-mobile {
     /* visibility: visible; */
     display: block;
     margin-bottom: 2em;
-  
   }
 
   .hide-main,
-  .hidden{
-    display:none;
+  .hidden {
+    display: none;
   }
 }

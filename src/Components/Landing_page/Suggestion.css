@@ -9,7 +9,8 @@ body {
 
 .sug_icons h2 {
   color: rgba(2, 2, 2, 1);
-  font-size: 68.8px;
+  /* font-size: 68.8px; */
+  font-size: 50px;
   font-weight: 700;
   line-height: 96px;
   text-align: left;
@@ -19,16 +20,22 @@ body {
 .sug_icons {
   display: flex;
   justify-content: space-between;
-  padding-left: 8em;
-  padding-right: 8em;
-  position: relative;
-  top: 5em;
+  padding: 5em 5em 0 5em;
+  /* padding-right: 8em; */
+  /* position: relative; */
+  /* top: 5em; */
 }
 
 /* styling the onion after suggestions */
 .Onion {
-  top: 10em;
+  top: 13.5em;
   position: relative;
+  width: 20px;
+  height: 20px;
+}
+.peper-icon{
+  width: 50px;
+  height: 50px;
 }
 
 /* styling the card */
@@ -38,11 +45,12 @@ body {
 .kp1 {
   background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.5)),
     url("../Images/sug1.jpeg");
-  width: 400px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  /* width: 400px; */
+  width: 100%;
+  border-radius: 8px;
+  /* border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px; */
   height: 250px;
   object-fit: cover;
   background-position: center;
@@ -52,11 +60,11 @@ body {
 .kp2 {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.98)),
     url("../Images/sug2.jpeg");
-  width: 400px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
+  /* border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px; */
   height: 250px;
   object-fit: cover;
   background-position: center;
@@ -66,11 +74,11 @@ body {
 .kp3 {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.98)),
     url("../Images/sug3.jpeg");
-  width: 400px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
+  /* border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px; */
   height: 250px;
   object-fit: cover;
   background-position: center;
@@ -81,9 +89,18 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
-  position: relative;
-  gap: 3em;
+  padding: 0 80px 0 80px;
+  /* position: relative; */
+  gap: 1em;
 }
+ /* .main_section{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+  justify-content: space-around;
+  background: red;
+ } */
 
 .kp1 h4,
 .kp2 h4,
@@ -100,9 +117,9 @@ body {
 .bottom_border {
   /* border: 0.01px solid #adadad; */
   border-bottom: 1px solid rgba(173, 173, 173, 1);
-  width: 84%;
-  margin-top: 2em;
-  margin-left: 8em;
+  width: 90%;
+  /* margin-top: 2em; */
+  margin: 50px 0px 0 70px;
 }
 
 /* started styling the mobile view from this point */
@@ -111,14 +128,14 @@ body {
   /* giving bg color to the suggetion section */
   .container-bg-mobile {
     background: rgba(250, 250, 250, 1);
-    margin-top: 20em;
+    /* margin-top: 20em; */
     position: relative;
     width:100%;
     margin-left: 0;
     padding-right: 0;
     height: 750px;
     padding-bottom: 0;
-    padding: 20px;
+    /* padding: 20px; */
     top: 3em;
   }
   .main_section{
@@ -132,8 +149,9 @@ body {
     flex-direction: column;
     width: 100%;
     justify-content: center;
+    padding: 0 20px 0 20px;
     position: relative;
-    bottom: 12.5em;
+    bottom: 5em;
     /* margin-right: 2em; */
     /* margin-left: 1em; */
     gap: 1em;
@@ -141,6 +159,7 @@ body {
 
   .sug_icons h2 {
     font-size: 27.65px;
+    padding-left: 20px;
     /* padding-left: 0.5em; */
     /* margin-top: 2em; */
   }

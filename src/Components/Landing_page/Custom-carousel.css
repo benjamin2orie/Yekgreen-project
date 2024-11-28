@@ -4,13 +4,17 @@
 }
 .splide__pagination {
   position: absolute; /* Change the position to absolute */
-  top: 55em; /* Adjust the bottom position */
+  top: 38em; /* Adjust the bottom position */
   /* left: 60px; */
 }
 
 /* adding border to the carousel indicator */
 .splide__pagination .splide__pagination__page {
   border: 1px solid black; /* Add a black border to inactive dots */
+}
+.splide__slide{
+  height: 600px;
+  object-fit: cover;
 }
 
 .container_header {
@@ -19,7 +23,7 @@
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 3em;
-  padding-left: 3em;
+  padding-left: 6em;
   padding-right: 4em;
   height: 150px;
   padding-bottom: 2px !important;
@@ -68,7 +72,7 @@
 }
 .register p {
   position: absolute;
-  top: 3.2em;
+  top: 3.5em;
   right: 5em;
 }
 
@@ -92,14 +96,15 @@
 
 .section_bg {
   position: absolute;
-  top: 20em;
-  left: 10em;
+  top: 12em;
+  left: 5em;
 }
+
 
 .section_bg .para {
   color: #16dc65;
   /* font-size: 40px; */
-  font-size: 118.88px;
+  font-size: 50px;
   font-weight: 800;
 line-height: 128px;
 text-align: left;
@@ -110,7 +115,7 @@ text-decoration-skip-ink: none;
   color: #16dc65;
   font-size: 20px;
   font-weight: 800;
-line-height: 128px;
+line-height: 80px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
@@ -122,7 +127,7 @@ text-decoration-skip-ink: none;
   margin-top: 2em;
 }
 .search_recipes input {
-  flex: 0.5;
+  flex: 0.9;
   width: 500px;
   background: #3a3a3c;
   height: 40px;
@@ -139,7 +144,7 @@ text-decoration-skip-ink: none;
 }
 
 .btn {
-  width: 5%;
+  width: 10%;
   height: 40px;
   border: none;
   border-top-right-radius: 5px;
@@ -157,9 +162,9 @@ text-decoration-skip-ink: none;
 
 }
 .desktop_views p{
-  font-size: 118.88px;
+  font-size: 50px;
 font-weight: 800;
-line-height: 128px;
+line-height: 50px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
