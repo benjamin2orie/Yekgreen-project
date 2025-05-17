@@ -98,6 +98,7 @@ const Login = () => {
             </div>
           </form>
 
+
           <div className="login_borderss flex justify-center pt-[2em] items-center gap-[0.5em]">
             <div className="grey_borderss border-b border-[#3a3a3a] w-[100px]"></div>
             <p>or with</p>
@@ -126,6 +127,7 @@ const Login = () => {
               Register here
             </Link>
           </div>
+          
         </div>
       </div>
     </div>

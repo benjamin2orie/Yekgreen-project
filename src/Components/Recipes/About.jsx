@@ -136,6 +136,7 @@ const About = () => {
           </div>
         </div>
       </header>
+      
       <div
         className="burgersss bg-[#04471c] flex items-center h-[80px] lg:pl-[5em] pl-[1em] pt-[0.3em]
          gap-[0.3em] text-[rgba(255,255,255,1)] text-[25px] font-[300] lg:my-[0] my-[1em]
