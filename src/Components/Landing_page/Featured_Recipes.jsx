@@ -166,7 +166,7 @@ const Featured_Recipes = () => {
       <img src={Chili} alt="chip peper" className="lg:flex relative hidden w-[20px] h-[20px] left-[90em] bottom-[30em]" />
       <div className="lg:flex hidden border-b mb-[2em] mx-[8em]"></div>
       <MobileView />
-      <Main className="disable_on_mobiles" />
+      <Main/>
       <Footer/>
     </>
   );
