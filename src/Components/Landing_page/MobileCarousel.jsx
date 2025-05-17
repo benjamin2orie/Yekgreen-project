@@ -23,7 +23,7 @@ const MobileCarousel = () => {
   }, []);
   return (
     <>
-      <div className="mobile-carousel">
+      <div className="mobile-carousels md:my-[3em]">
         <Splide
           ref={splideRef}
           options={{
@@ -40,24 +40,24 @@ const MobileCarousel = () => {
             <img
               src={card1}
               alt=" this picture contains a plate of porridge food"
-              className="fit"
+              className="object-cover object-center"
             />
           </SplideSlide>
           <SplideSlide>
             <img src={card2} alt=" this imge contains a plate of salad food"
-            className="fit" />
+            className="object-cover object-center md:w-[100%] md:h-[300px]" />
           </SplideSlide>
           <SplideSlide>
             <img src={card3} alt="this image is a plate of spicy food"
-            className="fit" />
+            className="object-cover object-center md:h-[300px] md:w-[100%]" />
           </SplideSlide>
           <SplideSlide>
             <img src={card4} alt="this image contains a plate of noodles" 
-            className="fit"/>
+            className="object-cover object-center md:w-[100%] md:h-[300px]"/>
           </SplideSlide>
           <SplideSlide>
             <img src={card5} alt="this picture contains a plate of Oha soup"
-            className="fit" />
+            className="object-center object-cover md:w-[100%] md:h-[300px]" />
           </SplideSlide>
         </Splide>
       </div>

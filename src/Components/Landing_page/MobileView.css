@@ -1,17 +1,17 @@
 
 
-.mobile-card{
+/* .mobile-card{
     display: none;
 
-}
+} */
 
 /* enable the card to display on the mobile view */
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     .mobile-card{
         display: flex;
         flex-direction: column;
         gap: 2em;
     }
     
-}
+} */

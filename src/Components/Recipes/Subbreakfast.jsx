@@ -11,147 +11,147 @@ const Subbreakfast = () => {
   return (
     <div>
       <section className="sub_container">
-        <div className="sub_main_container">
-          <div className="sub_flex_container">
-            <img src={Fries} alt="egg sauce" className="sub_food_menu" />
-            <div className="sub_card2">
-              <div className="sub_love">
-                <p>fries 🍞 & egg sauce</p>
-                <AiOutlineHeart className="sub_heart" />
+        <div className="sub_main_containerss lg:grid hidden grid-cols-3 gap-[1em] px-[8em] py-[3em]">
+          <div className="sub_flex_container font-[700]">
+            <img src={Fries} alt="egg sauce" className="sub_food_menuss w-[100%] h-[200px] rounded-t-[5px] object-cover object-center" />
+            <div className="sub_card2ss border-x border-b rounded-b shadow-lg py-[2em] px-[1em]">
+              <div className="sub_lovess flex justify-between">
+                <p className="capitalize">fries 🍞 & egg sauce</p>
+                <AiOutlineHeart className="sub_heartss text-[#058b42] cursor-pointer" />
               </div>
-              <div className="sub_love2">
-                <div className="sub_servings_section">
-                  <p className="para">High in proteins</p>
-                  <div className="sub_radius"></div>
-                  <p className="sub_grey">3 Servings</p>
+              <div className="sub_love2ss flex justify-between pt-[0.5em]">
+                <div className="sub_servings_sectionss flex gap-[0.4em]">
+                  <p className="parass text-[#058b42] pt-[0.3em]">High in proteins</p>
+                  <div className="sub_radiusss w-[10px] h-[10px] rounded-full bg-[#6e6e6e] mt-[0.7em]"></div>
+                  <p className="sub_greyss text-[#6e6e6e] pt-[0.3em]">3 Servings</p>
                 </div>
-                <div className="sub_star_section">
+                <div className="sub_star_sectionss flex gap-[0.5em] items-center">
                   <p>4.5</p>
-                  <AiOutlineStar className="sub_heart" />
+                  <AiOutlineStar className="sub_heartss text-[#058b42]" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="sub_flex_container">
-            <img src={Okpa} alt="okpa" className="sub_food_menu" />
-            <div className="sub_card2">
-              <div className="sub_love">
-                <p>okpa & pap</p>
-                <AiOutlineHeart className="sub_heart" />
+          <div className="sub_flex_container font-[700]">
+            <img src={Okpa} alt="okpa" className="sub_food_menuss w-[100%] h-[200px] rounded-t-[5px] object-cover object-center" />
+            <div className="sub_card2ss border-x border-b rounded-b shadow-lg py-[2em] px-[1em]">
+              <div className="sub_lovess flex justify-between">
+                <p className="capitalize">okpa & pap</p>
+                <AiOutlineHeart className="sub_heartss text-[#058b42] cursor-pointer" />
               </div>
-              <div className="sub_love2">
-                <div className="sub_servings_section">
-                  <p className="para">High in proteins</p>
-                  <div className="sub_radius"></div>
-                  <p className="sub_grey">6 Servings</p>
+              <div className="sub_love2ss flex justify-between pt-[0.5em]">
+                <div className="sub_servings_sectionss flex gap-[0.4em]">
+                  <p className="parass text-[#058b42] pt-[0.3em]">High in proteins</p>
+                  <div className="sub_radiusss w-[10px] h-[10px] rounded-full bg-[#6e6e6e] mt-[0.7em]"></div>
+                  <p className="sub_greyss text-[#6e6e6e] pt-[0.3em]">6 Servings</p>
                 </div>
-                <div className="sub_star_section">
+                <div className="sub_star_sectionss flex gap-[0.5em] items-center">
                   <p>4.5</p>
-                  <AiOutlineStar className="sub_heart" />
+                  <AiOutlineStar className="sub_heartss text-[#058b42]" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="sub_flex_container">
+          <div className="sub_flex_container font-[700]">
             <img
               src={Beans}
               alt="jollof rice & beans"
-              className="sub_food_menu"
+              className="sub_food_menuss w-[100%] h-[200px] rounded-t-[5px] object-cover object-center"
             />
-            <div className="sub_card2">
-              <div className="sub_love">
-                <p>jollof rice & beans</p>
-                <AiOutlineHeart className="sub_heart" />
+            <div className="sub_card2ss border-x border-b rounded-b shadow-lg py-[2em] px-[1em]">
+              <div className="sub_lovess flex justify-between">
+                <p className="capitalize">jollof rice & beans</p>
+                <AiOutlineHeart className="sub_heartss text-[#058b42] cursor-pointer" />
               </div>
-              <div className="sub_love2">
-                <div className="sub_servings_section">
-                  <p className="para">High in Carbs</p>
-                  <div className="sub_radius"></div>
-                  <p className="sub_grey">6 Servings</p>
+              <div className="sub_love2ss flex justify-between pt-[0.5em]">
+                <div className="sub_servings_sectionss flex gap-[0.4em]">
+                  <p className="parass text-[#058b42] pt-[0.3em]">High in Carbs</p>
+                  <div className="sub_radiusss w-[10px] h-[10px] rounded-full bg-[#6e6e6e] mt-[0.7em]"></div>
+                  <p className="sub_greyss text-[#6e6e6e] pt-[0.3em]">6 Servings</p>
                 </div>
-                <div className="sub_star_section">
+                <div className="sub_star_sectionss flex gap-[0.5em] items-center">
                   <p>4.5</p>
-                  <AiOutlineStar className="sub_heart" />
+                  <AiOutlineStar className="sub_heartss text-[#058b42]" />
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="sub_container2">
-          <div className="sub_flex_container">
+        <div className="sub_container2ss grid grid-cols-3 gap-[1em] px-[8em]">
+          <div className="sub_flex_container font-[700]">
             <img
               src={Plantain}
               alt="beans & plantains"
-              className="sub_food_menu"
+              className="sub_food_menuss w-[100%] h-[200px] rounded-t-[5px] object-cover object-center"
             />
-            <div className="sub_card2">
-              <div className="sub_love">
-                <p>beans & plantains</p>
-                <AiOutlineHeart className="sub_heart" />
+            <div className="sub_card2ss border-x border-b rounded-b shadow-lg py-[2em] px-[1em]">
+              <div className="sub_lovess flex justify-between">
+                <p className="capitalize">beans & plantains</p>
+                <AiOutlineHeart className="sub_heartss text-[#058b42] cursor-pointer" />
               </div>
-              <div className="sub_love2">
-                <div className="sub_servings_section">
-                  <p className="para">High in carbs</p>
-                  <div className="sub_radius"></div>
-                  <p className="sub_grey">6 Servings</p>
+              <div className="sub_love2ss flex justify-between pt-[0.5em]">
+                <div className="sub_servings_sectionss flex gap-[0.4em]">
+                  <p className="parass text-[#058b42] pt-[0.3em]">High in carbs</p>
+                  <div className="sub_radiusss w-[10px] h-[10px] rounded-full bg-[#6e6e6e] mt-[0.7em]"></div>
+                  <p className="sub_greyss text-[#6e6e6e] pt-[0.3em]">6 Servings</p>
                 </div>
-                <div className="sub_star_section">
+                <div className="sub_star_sectionss flex gap-[0.5em] items-center">
                   <p>4.5</p>
-                  <AiOutlineStar className="sub_heart" />
+                  <AiOutlineStar className="sub_heartss text-[#058b42]" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="sub_flex_container">
+          <div className="sub_flex_container font-[700]">
             <img
               src={Veggies}
               alt="bread & veggies"
-              className="sub_food_menu"
+              className="sub_food_menuss w-[100%] h-[200px] rounded-t-[5px] object-cover object-center"
             />
-            <div className="sub_card2">
-              <div className="sub_love">
-                <p>bread 🥪 & veggies</p>
-                <AiOutlineHeart className="sub_heart" />
+            <div className="sub_card2ss border-x border-b rounded-b shadow-lg py-[2em] px-[1em]">
+              <div className="sub_lovess flex justify-between">
+                <p className="capitalize">bread 🥪 & veggies</p>
+                <AiOutlineHeart className="sub_heartss text-[#058b42] cursor-pointer" />
               </div>
-              <div className="sub_love2">
-                <div className="sub_servings_section">
-                  <p className="para">High in vitamins</p>
-                  <div className="sub_radius"></div>
-                  <p className="sub_grey">4 Servings</p>
+              <div className="sub_love2ss flex justify-between pt-[0.5em]">
+                <div className="sub_servings_sectionss flex gap-[0.4em]">
+                  <p className="parass text-[#058b42] pt-[0.3em]">High in vitamins</p>
+                  <div className="sub_radiusss w-[10px] h-[10px] rounded-full bg-[#6e6e6e] mt-[0.7em]"></div>
+                  <p className="sub_greyss text-[#6e6e6e] pt-[0.3em]">4 Servings</p>
                 </div>
-                <div className="sub_star_section">
+                <div className="sub_star_sectionss flex gap-[0.5em] items-center">
                   <p>4.5</p>
-                  <AiOutlineStar className="sub_heart" />
+                  <AiOutlineStar className="sub_heartss text-[#058b42]" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="sub_flex_container">
+          <div className="sub_flex_container font-[700]">
             <img
               src={Fruits}
               alt="fruits & veggies"
-              className="sub_food_menu"
+              className="sub_food_menuss w-[100%] h-[200px] rounded-t-[5px] object-cover object-center"
             />
-            <div className="sub_card2">
-              <div className="sub_love">
-                <p>fruits & veggies</p>
-                <AiOutlineHeart className="sub_heart" />
+            <div className="sub_card2ss border-x border-b rounded-b shadow-lg py-[2em] px-[1em]">
+              <div className="sub_lovess flex justify-between">
+                <p className="capitalize">fruits & veggies</p>
+                <AiOutlineHeart className="sub_heartss text-[#058b42] cursor-pointer" />
               </div>
-              <div className="sub_love2">
-                <div className="sub_servings_section">
-                  <p className="para">High in vitamins</p>
-                  <div className="sub_radius"> </div>
-                  <p className="sub_grey">6 Servings</p>
+              <div className="sub_love2ss flex justify-between pt-[0.5em]">
+                <div className="sub_servings_sectionss flex gap-[0.4em]">
+                  <p className="parass text-[#058b42] pt-[0.3em]">High in vitamins</p>
+                  <div className="sub_radiusss w-[10px] h-[10px] rounded-full bg-[#6e6e6e] mt-[0.7em]"> </div>
+                  <p className="sub_greyss text-[#6e6e6e] pt-[0.3em]">6 Servings</p>
                 </div>
 
-                <div className="sub_star_section">
+                <div className="sub_star_sectionss flex gap-[0.5em] items-center">
                   <p>4.5</p>
-                  <AiOutlineStar className="sub_heart" />
+                  <AiOutlineStar className="sub_heartss text-[#058b42]" />
                 </div>
               </div>
             </div>

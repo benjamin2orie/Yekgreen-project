@@ -327,7 +327,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-article h3 {
+article h3s {
   text-transform: capitalize;
   padding-bottom: 0.5em;
   color: rgba(2, 2, 2, 1);
@@ -339,10 +339,10 @@ article h3 {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-article {
+/* article {
   margin-left: 5em;
   margin-right: 5em;
-}
+} */
 
 /*  started the nutrition facts styling here */
 .nutrition_fact {

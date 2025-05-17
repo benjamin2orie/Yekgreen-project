@@ -1,36 +1,27 @@
-body {
-  background: #ffffff;
-}
 
-* {
+
+
+
+/* intial vanina css before migrating to tailwindcss */
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.feature_recipes {
+/* .feature_recipes {
   display: flex;
   gap: 0.8em;
-  /* padding-left: 8em; */
-  /* padding-top: 3em; */
   padding: 3em 0 0 80px;
   padding-bottom: 4em;
-}
+} */
 
-.feature_recipes h1 {
-  color: rgba(2, 2, 2, 1);
-  font-size: 45px;
-  text-transform: capitalize;
-  font-weight: 700;
-  padding-top: 0.5em;
-}
-.feature_recipes h2 {
-  visibility: hidden;
-}
-.feature_recipes img {
+
+/* .feature_recipes img {
   width: 30px;
   height: 30px;
   position: relative;
@@ -42,18 +33,15 @@ body {
   grid-template-rows: (2, 1fr);
   width: 100%;
   padding: 0 80px 0 80px;
-  /* grid-column: 1px;  */
-  /* grid-row-gap: 2px; */
 
-  /* margin-left: 8em; */
-  /* margin-right: 6em; */
   gap: 1em;
-}
+} */
+
+
 /* .flex_container {
   padding: 2px;
 } */
-.food_menu {
-  /* width: 400px; */
+/* .food_menu {
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -72,11 +60,11 @@ body {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* styling the text on the feature section */
 
-.recipe_container {
+/* .recipe_container {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -103,9 +91,9 @@ body {
   font-size: 20px;
   text-transform: capitalize;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.heart {
+/* .heart {
   color: #058b42;
   cursor: pointer;
   font-size: 30px;
@@ -144,7 +132,7 @@ body {
 }
 
 /* stylig the onion,  carrot, chili icon  */
-.onion {
+/* .onion {
   position: relative;
   width: 30px;
   height: 30px;
@@ -164,10 +152,12 @@ body {
   height: 20px;
   left: 90em;
   bottom: 0em;
-}
+}  */
+
+
 
 /* styling the border line */
-
+/* 
 .borderss {
   border-bottom: 1px solid rgba(173, 173, 173, 1);
   width: 88%;
@@ -175,18 +165,16 @@ body {
   margin-bottom: 2em;
   margin-top: 1em;
   margin-left: 80px;
-  /* position: relative; */
   bottom: 6.5em;
 }
 
 .view-on-mobile {
   visibility: hidden;
-}
+} */
 
 /* started mobile view design from this point */
 
-@media (max-width: 768px) {
-  /* disabling desktop views from mobile views */
+/* @media (max-width: 834px) {
   .feature_recipes h1,
   .feature_recipes img,
   .onion,
@@ -197,7 +185,6 @@ body {
   .borderss {
     display: none;
   }
-  /* enabling only mobile views */
 
   .feature_recipes h2 {
     visibility: visible;
@@ -232,8 +219,6 @@ body {
   }
 
   .love2 .para {
-    /* color: #058b42;
-    font-size: 20px; */
 
     font-size: 16px;
     font-weight: 600;
@@ -244,7 +229,6 @@ body {
   }
 
   .grey {
-    /* color: #6e6e6e; */
     color: rgba(110, 110, 110, 1);
     padding-top: 0.2em;
     font-size: 16px;
@@ -258,9 +242,7 @@ body {
   .flex_container {
     width: 100%;
     padding: 20px;
-    /* padding: 0; */
-    /* padding-left: 1em;
-    padding-right: 1em; */
+
   }
   .food_menu {
     width: 100%;
@@ -285,16 +267,13 @@ body {
 
   .card2 {
     border: 1px solid #d4d4d4;
-    /* border: solid 1px red; */
     border-top: none;
     height: 140px;
     width: 100%;
     position: relative;
     bottom: 5px;
-    /* width: 328px; */
-    /* width: 396px; */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: none;
   }
-}
+} */

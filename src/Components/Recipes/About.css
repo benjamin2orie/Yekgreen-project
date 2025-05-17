@@ -20,7 +20,7 @@ body {
   
 } */
 
-.about_container ul {
+.about_container {
   display: flex;
   list-style: none;
   text-transform: capitalize;

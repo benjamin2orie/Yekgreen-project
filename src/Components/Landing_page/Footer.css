@@ -1,6 +1,9 @@
 /* styling the footer start here */
 
-* {
+
+/* INITIAL VANILA CSS STYLE BEFORE BEFORE REDISGN WITH TAILWINDCSS */
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -55,24 +58,22 @@
 .terms {
   margin-left: 8em;
   padding-bottom: 1em;
-}
+} */
+
+
 
 /* footer design on mobile view starts here */
 
-@media (max-width: 768px) {
-  /* changing the bg color of the footer on mobile views */
+/* @media (max-width: 768px) {
 
   .container-footer {
-    /* color: #ffffff; */
     background: rgba(255, 255, 255, 1);
 
     font-family: Arial, Helvetica, sans-serif;
     background: rgba(13, 40, 25, 1);
     padding-left: 20px;
     padding-right: 20px;
-    /* background-color: red; */
   }
-  /* hiddding the social media icon on mobile */
   .social {
     display: none;
   }
@@ -108,7 +109,6 @@
   .container_about ul {
     font-size: 19.02px;
     font-weight: 500;
-    /* line-height: 32px; */
     line-height: 50px;
     text-align: center;
     text-underline-position: from-font;
@@ -116,7 +116,6 @@
   }
 
   .border {
-    /* border-bottom: 1px solid #adadad; */
     border-bottom: 0.5px solid rgba(255, 255, 255, 1);
     width: 100%;
     margin-top: 3em;
@@ -138,4 +137,4 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-}
+} */

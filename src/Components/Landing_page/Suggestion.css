@@ -1,33 +1,20 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.sug_icons h2 {
-  color: rgba(2, 2, 2, 1);
-  /* font-size: 68.8px; */
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 96px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.sug_icons {
+
+
+/* .sug_icons {
   display: flex;
   justify-content: space-between;
   padding: 5em 5em 0 5em;
-  /* padding-right: 8em; */
-  /* position: relative; */
-  /* top: 5em; */
-}
+
+} */
 
 /* styling the onion after suggestions */
-.Onion {
+/* .Onion {
   top: 13.5em;
   position: relative;
   width: 20px;
@@ -36,63 +23,52 @@ body {
 .peper-icon{
   width: 50px;
   height: 50px;
-}
+} */
 
 /* styling the card */
 
 /* styling the background color of the card */
 
-.kp1 {
+/* .kp1 {
   background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.5)),
     url("../Images/sug1.jpeg");
-  /* width: 400px; */
   width: 100%;
   border-radius: 8px;
-  /* border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px; */
   height: 250px;
   object-fit: cover;
   background-position: center;
   background-size: cover;
-}
+} */
 
-.kp2 {
+/* .kp2 {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.98)),
     url("../Images/sug2.jpeg");
   width: 100%;
   border-radius: 8px;
-  /* border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px; */
   height: 250px;
   object-fit: cover;
   background-position: center;
   background-size: cover;
-}
+} */
 
-.kp3 {
+/* .kp3 {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.98)),
     url("../Images/sug3.jpeg");
   width: 100%;
   border-radius: 8px;
-  /* border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px; */
   height: 250px;
   object-fit: cover;
   background-position: center;
   background-size: cover;
-}
+} */
 
-.container_images {
+/* .container_images {
   display: flex;
   width: 100%;
   justify-content: center;
   padding: 0 80px 0 80px;
-  /* position: relative; */
   gap: 1em;
-}
+} */
  /* .main_section{
   display:flex;
   width: 100%;
@@ -102,7 +78,7 @@ body {
   background: red;
  } */
 
-.kp1 h4,
+/* .kp1 h4,
 .kp2 h4,
 .kp3 h4 {
 
@@ -111,40 +87,39 @@ body {
   font-size: 30px;
   padding-top: 6.5em;
   padding-left: 0.5em;
-}
+} */
 
 /* style the border after the card */
-.bottom_border {
-  /* border: 0.01px solid #adadad; */
+/* .bottom_border {
   border-bottom: 1px solid rgba(173, 173, 173, 1);
   width: 90%;
-  /* margin-top: 2em; */
   margin: 50px 0px 0 70px;
-}
+} */
 
 /* started styling the mobile view from this point */
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   /* giving bg color to the suggetion section */
   .container-bg-mobile {
-    background: rgba(250, 250, 250, 1);
+    /* background: rgba(250, 250, 250, 1); */
     /* margin-top: 20em; */
-    position: relative;
+    /* position: relative;
     width:100%;
     margin-left: 0;
     padding-right: 0;
     height: 750px;
     padding-bottom: 0;
-    /* padding: 20px; */
-    top: 3em;
+    top: 3em; */
   }
-  .main_section{
+
+  
+  /* .main_section{
     margin-right: 0em;
-  }
+  } */
 
   /* flexing suggestion images */
 
-  .container_images {
+  /* .container_images {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -152,18 +127,11 @@ body {
     padding: 0 20px 0 20px;
     position: relative;
     bottom: 5em;
-    /* margin-right: 2em; */
-    /* margin-left: 1em; */
     gap: 1em;
-  }
+  } */
 
-  .sug_icons h2 {
-    font-size: 27.65px;
-    padding-left: 20px;
-    /* padding-left: 0.5em; */
-    /* margin-top: 2em; */
-  }
-  .sug_icons {
+
+  /* .sug_icons {
     display: block;
     padding-left: 0em;
     padding-top: 1em;
@@ -175,18 +143,16 @@ body {
   .peper-icon,
   .Onion{
     visibility: hidden;
-  }
+  } */
 
-  .kp1{
+  /* .kp1{
 
     width: 100%;
     height: 180px;
     margin-left: 0em;
-    /* display:flex; */
-    /* flex-direction: column; */
-    /* margin-right: 4em; */
-  }
-  .kp1 h4,
+
+  } */
+  /* .kp1 h4,
   .kp2 h4,
   .kp3 h4{
     text-transform: capitalize;
@@ -196,10 +162,10 @@ body {
     line-height: 32px;
     padding-top: 6em;
     padding-left: 1em;
-  }
+  } */
 
 
-  .kp2 {
+  /* .kp2 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
       url("../Images/poridge.jpeg");
     width: 100%;
@@ -212,25 +178,22 @@ body {
     background-position: center;
     background-size: cover;
     margin-left: 0em;
-  }
+  } */
 
-  .kp3 {
+  /* .kp3 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
       url("../Recipes/Recipe_images/Noodles.jpeg");
-    /* width: 90%; */
     width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    /* height: 230px; */
     height: 180px;
     object-fit: cover;
     background-position: center;
     background-size: cover;
     margin-left: 0em;
-    /* margin-right: 2em !important; */
-  }
+  } */
 
   /* .container_images h4 {
     position: relative;
@@ -242,7 +205,7 @@ body {
     font-size: 23.04px;
     line-height: 32px;
   } */
-  .bottom_border {
+  /* .bottom_border {
 display: none;
-}
+} */
 }

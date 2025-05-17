@@ -103,13 +103,13 @@
   color: #6e6e6e;
 }
 
-form ::placeholder {
+/* form ::placeholder {
   color: #6e6e6e;
   text-transform: capitalize;
   font-size: 20px;
-}
+} */
 
-.password {
+.passwordss {
   margin-left: 0.1em;
 }
 
@@ -147,13 +147,13 @@ form ::placeholder {
   width: 100px;
 }
 
-.login_border p {
+/* .login_border p {
   position: relative;
   top: 0.5em;
   left: 1em;
   padding-right: 2em;
   color: #3a3a3c;
-}
+} */
 
 .container_media {
   width: 50px;
@@ -189,7 +189,9 @@ form ::placeholder {
   padding-top: 1em;
 } */
 
-.login_redirect {
+
+
+/* .login_redirect {
   color: rgba(58, 58, 60, 1);
   font-size: 23.04px;
   font-weight: 500;
@@ -202,11 +204,12 @@ form ::placeholder {
   color: #058b42;
   padding-left: 0.3em;
   text-decoration: none;
-}
+} */
 
 /* login mobile view */
 
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
    .bg-header {
      border-bottom: 0.5px solid rgba(237, 237, 237, 1);
      padding-bottom: 1em;
@@ -270,7 +273,6 @@ form ::placeholder {
 
 .more {
   text-align: center;
-  /* margin: 20px 20px 0 20px; */
   width: 100%;
   height: 44px;
   font-size: 19.04px;
@@ -303,7 +305,6 @@ form ::placeholder {
   font-weight: 400;
   color: rgba(58, 58, 60, 1);
 
-  /* line-height: 32px; */
 }
 
 
@@ -313,7 +314,6 @@ form ::placeholder {
   margin: 2em 0 0 0;
   width: 100%;
   gap: 2.5em;
-  /* border-bottom: 0.5px solid rgba(110, 110, 110, 1); */
 }
 
 
@@ -335,11 +335,10 @@ form ::placeholder {
   border-bottom: 0.2px solid rgba(110, 110, 110, 1);
   margin-bottom: 1em;
   margin-left: 0em;
-  /* margin: 1em 20px 20px 20px; */
   width: 100%;
 }
 .logos{
   position: relative; 
   right: 3em;
 }
-}
+} */

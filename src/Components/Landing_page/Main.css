@@ -20,7 +20,7 @@
   padding-top: 2em;
 }
 
-.blur-container h1 {
+.blur-container h1{
   color: rgba(255, 255, 255, 1);
   font-size: 39.81px;
   font-weight: 700px;
@@ -38,21 +38,21 @@
 }
 
 .container_input input {
-  flex: 0.5;
-  width: 200px;
-  background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.5));
-  height: 60px;
-  border: 1px solid rgba(255, 255, 255, 1);
-  border-right: none;
+  /* flex: 0.5;
+  width: 200px; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.5));
+  height: 60px; */
+  /* border: 1px solid rgba(255, 255, 255, 1); */
+  /* border-right: none;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding-left: 1em;
   color: #fafafa;
-  outline: none;
+  outline: none; */
 }
-.container_input input::placeholder {
+/* .container_input input::placeholder {
   color: rgba(237, 237, 237, 1);
-}
+} */
 
 .btn_btn {
   width: 10%;
@@ -67,15 +67,15 @@
   padding-left: 0.6em;
   color: rgba(2, 2, 2, 1);
 }
-.container_input {
+/* .container_input {
   display: flex;
   margin-left: 20em;
   margin-top: 2em;
-}
+} */
 
 /* styling the mobil view of the main section */
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   /* adding the bg image of the main section on the mobile view */
 
   .blur-container {
@@ -104,7 +104,7 @@
     padding-right: 0.5em;
   }
 
-  .blur-container h1 {
+  /* .blur-container h1 {
     color: rgba(255, 255, 255, 1);
     font-size: 27.65px;
     font-weight: 600;
@@ -112,7 +112,7 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-  }
+  } */
 
   .blur-container h2 {
     color: rgba(255, 255, 255, 1);
