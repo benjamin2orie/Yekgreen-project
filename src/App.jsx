@@ -7,9 +7,11 @@ import Lunch from "./Components/Recipes/Lunch.jsx";
 import Dinner from "./Components/Recipes/Dinner.jsx";
 import Login from "./Components/Recipes/Login.jsx";
 import Register from "./Components/Recipes/Register.jsx";
+import ScrollToTop from "../ScrollToTop.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => (
   <Router>
+    <ScrollToTop />
     <Routes>
       <Route index element={<Home />} />
       <Route path="/about" element={<About />} />

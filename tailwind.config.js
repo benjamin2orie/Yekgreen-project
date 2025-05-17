@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"], // Ensure JSX files are included
   theme: {
     extend: {
