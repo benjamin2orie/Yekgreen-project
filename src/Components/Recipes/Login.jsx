@@ -88,6 +88,7 @@ const Login = () => {
                   className="login_passwordss rounded-r-[8px] outline-none w-[100%] h-[40px] border-[1px] border-[#6e6e6e] text-[20px] pl-[0.1em]"
                 />
               </div>
+              
               <div>
                 <input
                   type="button"
@@ -127,7 +128,7 @@ const Login = () => {
               Register here
             </Link>
           </div>
-          
+
         </div>
       </div>
     </div>

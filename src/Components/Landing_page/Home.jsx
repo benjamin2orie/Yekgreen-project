@@ -8,8 +8,6 @@ import "@splidejs/react-splide/css";
 import { AiOutlineUser } from "react-icons/ai";
 import Carousel1 from "../Images/Carousel1.png";
 import Carousel2 from "../Images/Carousel22.png";
-// import Porridge from "../Images/poridge.jpeg";
-// import Stew from "../Images/stew.jpeg";
 import { useLocation } from "react-router-dom";
 import Carousel3 from "../Images/Carousel3.png";
 import Carousel4 from "../Images/Carousel4.png";
@@ -61,7 +59,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <header className="bg-header">
+      <header className="">
         <div
           className="container_headers flex
           bg-[#fffff] justify-between items-center lg:px-[6em] pl-[70px]
@@ -191,8 +189,10 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <div className="Auto_carousel">
-        <div className="lg:static relative top-[20em] lg:top-[0] lg:mb-[0] mb-[20em]">
+
+
+      <div className="Auto_carouselsss flex flex-col-reverse">
+        <div className="">
           <Splide
             className="lg:flex flex-col hidden"
             ref={splideRef}
@@ -223,12 +223,13 @@ const Home = () => {
               <img src={Carousel5} alt="Carousel 5" className="me" />
             </SplideSlide>
           </Splide>
+
           <div className="flex lg:hidden flex-col">
             <MobileCarousel />
           </div>
         </div>
 
-        <div className="section_bg lg:px-[4em] font-workSans">
+        <div className="section_bgss lg:px-[8em] px-[20px] font-workSans lg:absolute lg:top-[15em] pt-[2em]">
           <div className="lg:hidden flex flex-col text-[30px] text-green-900 font-workSans font-[800]
            leading-[40px]">
             <p>Home for</p>
@@ -237,6 +238,7 @@ const Home = () => {
             <p className="text-gray-700 text-[19.02px] md:text-[30px] font-400
             leading-[25px] my-[1em]">Ranging from meals to desert to drinks</p>
           </div>
+
           <div className="lg:flex flex-col text-[80px] font-800 hidden leading-[80px]">
             <p className="text-[80px] text-white">Learn to cook</p>
             <p className="text-[#16dc65]">healthy</p>
@@ -250,10 +252,10 @@ const Home = () => {
             <input
               type="text"
               placeholder="Search recipe"
-              className="placeholder-gray-200"
+              className="lg:placeholder-gray-100 lg:text-[#ffffff] border border-gray-300 rounded-l-[8px] outline-none pl-[0.5em] text-[20px] w-[100%] lg:bg-gray-700"
 
             />
-            <button className ="lg:bg-white bg-green-900 h-[50px] lg:w-[10%] w-[15%] border-l-0 rounded-r-md
+            <button className ="lg:bg-white bg-green-900 h-[50px] lg:w-[10%] w-[60px]  rounded-r-md
               flex items-center justify-center text-gray-300 lg:text-gray-900">
               <CiSearch />
             </button>

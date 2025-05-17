@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,14 +27,14 @@
     cursor: pointer;
     padding-top: 1em;
 
-}
+} */
 
 /* .conc {
     text-decoration: none;
     color: #3A3A3C;
 } */
 
-.container_auth {
+/* .container_auth {
     display: flex;
     gap: 3em;
     cursor: pointer;
@@ -59,14 +59,14 @@
     text-decoration: none;
     padding: 1em;
     cursor: pointer;
-}
+} */
 
 /* started styling the auth image from this port */
-.container_image {
+/* .container_image {
     width: 500px;
     height: 640px;
     padding-left: 3em;
-}
+} */
 
 /* .drop {
     height: 35%;
@@ -112,7 +112,7 @@
 } */
 
 
-.input,
+/* .input,
 .password {
     border-radius: 8px;
     width: 500px;
@@ -162,7 +162,7 @@
 
 
 /* styling the mail icon  */
-.mailIcon,
+/* .mailIcon,
 .lock {
     position: relative;
     top: 1px;
@@ -195,11 +195,11 @@
     border: none;
     outline: none;
     border-radius: 8px;
-}
+} */ 
 
 /* grey or order */
 
-.border {
+/* .border {
     display: flex;
     justify-content: center;
     padding-top: 2em;
@@ -263,4 +263,4 @@ span {
     text-transform: capitalize;
     text-decoration: none;
     padding-top: 1em;
-}
+} */

@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-/* .about_container {
+.about_container {
   display: flex;
   background-color: #ffffff;
   justify-content: space-between;
@@ -18,7 +18,7 @@ body {
   padding-right: 6em;
   padding-bottom: 2em;
   
-} */
+}
 
 .about_container {
   display: flex;
@@ -66,13 +66,10 @@ body {
 }
 
 .dev {
-  /* color: #3A3A3C; */
   width: 100%;
-  /* padding-top: 3em; */
-  /* padding-left: 3em; */
+
   padding: 3em 60px 3em 60px;
   color: rgba(58, 58, 60, 1);
-  /* padding-bottom: 3em; */
   font-size: 23.04px;
   font-weight: 400;
   line-height: 48px;
@@ -91,15 +88,12 @@ body {
 .about_image {
   display: flex;
   width: 100%;
-  /* padding: 3em; */
 padding: 0 50px 3em 50px;
   gap: 3em;
-  /* padding-left: 5em; */
-  /* padding-bottom: 3em; */
+
 }
 
 .about_image p {
-  /* width: 700px; */
   padding-top: 2em;
   font-size: 23.04px;
   font-weight: 400;
@@ -115,7 +109,6 @@ padding: 0 50px 3em 50px;
 
 
 
-/* styling the mobile view of the about page */
 
 @media (max-width:768px) {
 
@@ -131,9 +124,7 @@ padding: 0 50px 3em 50px;
 
 
   .dev {
-    /* color: #3A3A3C; */
     width: 100%;
-    /* padding-top: 3em; */
     padding: 3em 20px 0 20px;
     color: rgba(58, 58, 60, 1);
     padding-bottom: 1em;
@@ -186,4 +177,4 @@ padding: 0 50px 3em 50px;
   }
   
 }
-
+ */

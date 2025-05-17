@@ -1,15 +1,14 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
-.bg-header {
+/* .bg-header {
   border-bottom: 1px solid rgba(212, 212, 212, 1);
-  /* border-bottom: 0.5px solid rgba(237, 237, 237, 1) */
-}
+} */
 /* started styling the auth image from this port */
-.login_image {
+/* .login_image {
   width: 500px;
   height: 640px;
   padding-left: 3em;
@@ -45,22 +44,20 @@
 
 .login_container_form h3 {
   /* text-align: center; */
-  padding-top: 2em;
+  /* padding-top: 2em;
   color: #020202;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   padding-bottom: 0;
 
-  /* font-size: 68.8px; */
   font-weight: 700;
   line-height: 96px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-}
+} */
 
-.login_container_form h4 {
-  /* text-align: center; */
+/* .login_container_form h4 {
   padding-top: 2em;
   color: #020202;
   font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +65,6 @@
   padding-bottom: 0;
   display: none;
 
-  /* font-size: 68.8px; */
   font-weight: 700;
   line-height: 96px;
   text-align: left;
@@ -80,8 +76,7 @@
   width: 600px;
   margin-top: 1em;
   padding-right: 2em;
-  /* border-radius: 5px; */
-}
+}  */
 
 /* .userAccount {
   margin-left: 15em;
@@ -95,13 +90,13 @@
 } */
 
 /* styling the mail icon  */
-.mailIcon,
+/* .mailIcon,
 .lock {
   position: relative;
   top: 0.2em;
   left: 1.5em;
   color: #6e6e6e;
-}
+} */
 
 /* form ::placeholder {
   color: #6e6e6e;
@@ -109,11 +104,11 @@
   font-size: 20px;
 } */
 
-.passwordss {
+/* .passwordss {
   margin-left: 0.1em;
-}
+} */
 
-.more {
+/* .more {
   text-align: center;
   margin-left: 0.5em;
   margin-top: 1em;
@@ -132,11 +127,11 @@
   line-height: 32px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-}
+} */
 
 /* grey or order */
 
-.login_border {
+/* .login_border {
   display: flex;
   justify-content: center;
   padding-top: 2em;
@@ -145,7 +140,7 @@
 .grey_border {
   border-bottom: 1px solid #3a3a3c;
   width: 100px;
-}
+} */
 
 /* .login_border p {
   position: relative;
@@ -155,7 +150,7 @@
   color: #3a3a3c;
 } */
 
-.container_media {
+/* .container_media {
   width: 50px;
   height: 40px;
   color: #ffffff;
@@ -165,21 +160,21 @@
   border-radius: 5px;
   margin-bottom: 1em;
   cursor: pointer;
-}
+} */
 
-.media {
+/* .media {
   display: flex;
   justify-content: center;
   margin-top: 3em;
-  gap: 2em;
+  gap: 2em; */
   /* border-bottom: 0.5px solid rgba(110, 110, 110, 1); */
-}
+/* }
 .border_bottom_color {
   border-bottom: 0.2px solid rgba(110, 110, 110, 1);
   margin-bottom: 1em;
   margin-left: 1em;
   width: 500px;
-}
+} */
 
 /* .conc_auth {
   font-size: 20px;

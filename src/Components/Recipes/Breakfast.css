@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +10,6 @@
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 2em;
-  /* padding-left: 3em; */
   border: 1px solid rgba(5, 5, 5, 0.06);
   padding-left: 7em;
   padding-right: 8em;
@@ -37,12 +36,7 @@
   cursor: pointer;
 }
 
-/* .conc{
-    text-decoration: none;
-    color: #3A3A3C;
-} */
 
-/* styling the burger and breakfast title */
 .burger {
   background: #04471c;
   display: flex;
@@ -52,7 +46,6 @@
   gap: 0.3em;
   color: rgba(255, 255, 255, 1);
   font-size: 25px;
-  /* font-size: 47.78px; */
   font-weight: 300;
   line-height: 62.11px;
   text-align: left;
@@ -69,15 +62,10 @@
 
 .burger h3 {
   color: #ffffff;
-  /* padding-top: 1em; */
   font-size: 20px;
-  /* padding-bottom: 1em; */
 }
 .b_container_section p {
-  /* width: 75%;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 2em;
-  color: #020202;*/
+
   padding-left: 5em;
   padding-right: 3em;
   padding-top: 2em;
@@ -96,7 +84,6 @@
   justify-content: center;
   padding: 3em 100px 0 100px;
   gap: 1em;
-  /* padding-top: 3em; */
 }
 
 .b_food_menu {
@@ -185,15 +172,12 @@
   right: 9em;
   font-size: 50px;
   visibility: hidden;
-  /* color: red; */
   cursor: pointer;
 }
 .visible-on-mobile {
   display: none;
-  /* visibility: hidden; */
 }
 
-/* Breakfast mobile view */
 
 @media (max-width: 768px) {
   .b_container ul {
@@ -229,7 +213,6 @@
     gap: 0.3em;
     color: rgba(255, 255, 255, 1);
     font-size: 33.18px;
-    /* font-size: 47.78px; */
     font-weight: 300;
     line-height: 43.13px;
   }
@@ -248,10 +231,8 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    /* margin-bottom: 3em; */
   }
   .visible-on-mobile {
-    /* visibility: visible; */
     display: block;
     margin-bottom: 2em;
   }
@@ -260,4 +241,4 @@
   .hidden {
     display: none;
   }
-}
+} */

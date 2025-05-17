@@ -136,7 +136,7 @@ const About = () => {
           </div>
         </div>
       </header>
-      
+
       <div
         className="burgersss bg-[#04471c] flex items-center h-[80px] lg:pl-[5em] pl-[1em] pt-[0.3em]
          gap-[0.3em] text-[rgba(255,255,255,1)] text-[25px] font-[300] lg:my-[0] my-[1em]
@@ -187,7 +187,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="about_images flex flex-row flex-col w-[100%] lg:px-[8.5em] px-[20px] pb-[3em] gap-[3em]">
+      <div className="about_images flex lg:flex-row flex-col w-[100%] lg:px-[8.5em] px-[20px] pb-[3em] gap-[3em]">
         <img
           src={about_image}
           alt="picture"

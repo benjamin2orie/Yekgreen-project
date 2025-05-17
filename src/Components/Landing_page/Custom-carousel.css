@@ -17,7 +17,7 @@
   object-fit: cover;
 }
 
-.container_header {
+/* .container_header {
   display: flex;
   background-color: #ffffff;
   justify-content: space-between;
@@ -81,7 +81,6 @@
   gap: 5em;
 }
 
-/* the header style ends here */
 .container_auth .button {
   width: 180px;
   height: 60px;
@@ -122,7 +121,6 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
 
-/* This style remains untoched* */
 .search_recipes input {
   flex: 0.9;
   width: 500px;
@@ -150,12 +148,7 @@ text-decoration-skip-ink: none;
   align-content: center;
   padding-left: 0.1em;
 }
-/* .section_bg p {
-  font-size: 40px;
-  color: #f4f4f4;
 
-
-} */
 .desktop_views p{
   font-size: 50px;
 font-weight: 800;
@@ -165,25 +158,16 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
 
-/* styling the drower menu here */
 .toggle-menu {
   position: relative;
   bottom: 1em;
   right: 1em;
   font-size: 50px;
   visibility: hidden;
-  /* color: red; */
   cursor: pointer;
 }
 
-/* started the mobile design here */
-
-/* this class name add border style to the title */
-
-
-/* this is the class name for the menu icon */
-.ant-space-item {
-}
+ */
 
 
 
@@ -193,7 +177,8 @@ text-decoration-skip-ink: none;
   font-size: 30px;  
   color: #000; 
   padding-top: 20px;
-}
+  position: relative;
+  left: 9em;}
 
 /* styling title text */
 
@@ -219,7 +204,7 @@ text-decoration-skip-ink: none;
 } */
 
 /* Disabling the mobile view in the desktop views */
-.mobileView-only {
+/* .mobileView-only {
   display: none;
 }
 .mobile-carousel-only {
@@ -238,10 +223,10 @@ text-decoration-skip-ink: none;
 .register .anchor-tag {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
-}
+} */
 
 @media (max-width: 834px) {
-  .container_header {
+  /* .container_header {
     padding-left: 70px;
     padding-bottom: 0;
     padding-right: 0;
@@ -262,11 +247,11 @@ text-decoration-skip-ink: none;
   }
 
   /* hamburger menu toggling */
-  .toggle-menu {
+  /* .toggle-menu {
     visibility: visible;
     width:0;
     height: 0;
-  }
+  } */
 
   .splide__pagination {
     position: absolute; /* Change the position to absolute */
@@ -316,11 +301,11 @@ text-decoration-skip-ink: none;
     object-position: center;
   }
 
-  .hide {
+  /* .hide {
     position: relative;
     top: 20em;
     margin-bottom: 20em;
-  }
+  } */
 
   .logo img {
     margin-left: 1em;
@@ -331,10 +316,12 @@ text-decoration-skip-ink: none;
   }
   .contact li {
     list-style: none;
-  }
+  } */
+
+
 
   /* styling the login and signup section in header */
-
+/* 
   .mobileView-only {
     display: flex;
     background: rgba(5, 139, 66, 1);
@@ -357,18 +344,13 @@ text-decoration-skip-ink: none;
   }
 
   .section_bg {
-    /* position: absolute; */
     top: 10em;
     left: 0em;
     margin-bottom: 3em;
     margin-top: 0.2em;
     margin-left: 1.5em;
   }
-/* 
-  .section_bg .para {
-    color: red;
-    font-size: 20px;
-  } */
+
   .section_bg .para2 {
     color: rgba(2, 2, 2, 1);
     font-size: 19.02px;
@@ -380,7 +362,6 @@ text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
   }
  
-  /* this code remain untouched */
   .search_recipes input {
     flex: 0.9;
     width: 100px;
@@ -402,8 +383,7 @@ text-decoration-skip-ink: none;
   .mobile_views {
     display: block;
     color: rgba(4, 71, 28, 1);
-  }
-  /* mobile auto carousel display */
+  } */
 
 
 
