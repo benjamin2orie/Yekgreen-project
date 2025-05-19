@@ -190,6 +190,8 @@ const Home = () => {
         </div>
       </header>
 
+      <h1 style={{color:'red', textAlign: 'center'}}>This website is under maintenance!</h1>
+
 
       <div className="Auto_carouselsss flex flex-col-reverse">
         <div className="">
