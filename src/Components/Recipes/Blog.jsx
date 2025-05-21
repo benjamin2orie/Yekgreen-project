@@ -9,7 +9,7 @@ import Main from "../Landing_page/Main";
 import Footer from "../Landing_page/Footer";
 import Ingredients from "../Recipes/Recipe_images/Ingredients.jpeg";
 import Video from "../Recipes/Recipe_images/Video.gif";
-import "../Recipes/Blog.css";
+// import "../Recipes/Blog.css";
 import Rice from "../Images/Rice1.png";
 import mobileView from "../Recipes/Recipe_images/blog-mobile.jpeg";
 import { CgMenuLeft } from "react-icons/cg";

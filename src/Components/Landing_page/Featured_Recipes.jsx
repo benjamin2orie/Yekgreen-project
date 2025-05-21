@@ -8,7 +8,6 @@ import porridge from "../Images/poridge.jpeg";
 import Footer from "./Footer";
 import stew from "../Images/stew.jpeg";
 import { AiOutlineHeart, AiOutlineStar } from "react-icons/ai";
-import "./Featured_Recipes.css";
 import Main from "./Main";
 import carot from "../Images/carrot.png";
 import Tuber from "../Images/Carrot1.png";

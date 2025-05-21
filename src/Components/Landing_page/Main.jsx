@@ -1,8 +1,6 @@
 import React from "react";
-import main from "../Images/main.jpeg";
 import { AiOutlineSend } from "react-icons/ai";
-// import Footer from "./Footer";
-import "./Main.css";
+
 
 const Main = () => {
   return (

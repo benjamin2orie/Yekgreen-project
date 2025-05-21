@@ -1,7 +1,4 @@
-import "../Recipes/Subreakfast.css";
-
-import Veggies from "../Recipes/Recipe_images/Veggies.jpeg";
-import Fruits from "../Recipes/Recipe_images/Fruit.jpeg";
+// import "../Recipes/Subreakfast.css";
 import { AiOutlineHeart, AiOutlineStar } from "react-icons/ai";
 import sug2 from "../Images/sug2.jpeg";
 import Spark from "../Recipes/Recipe_images/Spark.jpeg";

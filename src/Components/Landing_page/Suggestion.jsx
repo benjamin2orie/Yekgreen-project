@@ -1,6 +1,5 @@
 import React from "react";
 import Featured_Recipes from "./Featured_Recipes";
-import "../Landing_page/Suggestion.css";
 import Onion from "../Images/Onion.png";
 import Peper from "../Images/Peper.png";
 

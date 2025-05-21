@@ -4,7 +4,6 @@ import facebook from "../Images/facebook.png";
 import twitter from "../Images/twitter.png";
 import instagram from "../Images/instagram.png";
 import { Link } from "react-router-dom";
-import "./Footer.css";
 
 const Footer = () => {
   return (

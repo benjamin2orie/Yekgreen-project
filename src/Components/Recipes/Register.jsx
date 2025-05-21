@@ -9,7 +9,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import apple_icon from "../Recipes/Recipe_images/apple_icon.png";
 import facebook_icon from "../Recipes/Recipe_images/facebook_icon.png";
 import google_icon from "../Recipes/Recipe_images/google_icon.png";
-import "./Login.css";
+// import "./Login.css";
 import { Link } from "react-router-dom";
 
 const Register = () => {

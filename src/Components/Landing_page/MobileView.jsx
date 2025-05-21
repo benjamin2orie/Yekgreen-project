@@ -1,6 +1,5 @@
 import React from "react";
 import Rice from "../Images/Rice1.png";
-import "./MobileView.css";
 import Salad from "../Recipes/Recipe_images/Salad.jpeg";
 import Mobile_image from "../Images/mobile-pap.jpeg";
 import { AiOutlineHeart, AiOutlineStar } from "react-icons/ai";

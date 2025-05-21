@@ -8,13 +8,12 @@ import "@splidejs/react-splide/css";
 import { AiOutlineUser } from "react-icons/ai";
 import Carousel1 from "../Images/Carousel1.png";
 import Carousel2 from "../Images/Carousel22.png";
-import { useLocation } from "react-router-dom";
 import Carousel3 from "../Images/Carousel3.png";
 import Carousel4 from "../Images/Carousel4.png";
 import Carousel5 from "../Images/Carousel5.png";
 import { CgMenuLeft } from "react-icons/cg";
 import { Link } from "react-router-dom";
-import { Button, Radio, Drawer, Dropdown, Space } from "antd";
+import { Drawer, Dropdown, Space } from "antd";
 import MobileCarousel from "./MobileCarousel";
 
 const items = [

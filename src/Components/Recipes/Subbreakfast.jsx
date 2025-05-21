@@ -1,4 +1,4 @@
-import "../Recipes/Subreakfast.css";
+// import "../Recipes/Subreakfast.css";
 import Okpa from "../Recipes/Recipe_images/Okpa.jpeg";
 import Fries from "../Recipes/Recipe_images/Fries.jpeg";
 import Beans from "../Images/sug3.jpeg";

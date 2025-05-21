@@ -5,7 +5,6 @@ import { FiFileText } from "react-icons/fi";
 import about_image from "../Recipes/Recipe_images/about_image.jpeg";
 import { TbUsers } from "react-icons/tb";
 import { useLocation } from "react-router-dom";
-import "./About.css";
 import Footer from "../Landing_page/Footer";
 import { CgMenuLeft } from "react-icons/cg";
 import { Link } from "react-router-dom";
